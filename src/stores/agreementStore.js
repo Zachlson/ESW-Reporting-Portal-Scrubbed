@@ -3,7 +3,7 @@ import agreements from "../data/agreements.json";
 export class AgreementStore {
   constructor() {}
 
-  getGeneralAgreementsData = async () => {
+  getGeneralAgreementsData = () => {
     const map = new Map();
     agreements.forEach((item) => {
       const shortObject = {
@@ -118,7 +118,7 @@ export class AgreementStore {
     return {
       Active: active,
       Expiring: expiring,
-      Monthly_Revenue: monthlyRevenue,
+      Revenue: monthlyRevenue,
       Additions: additions,
     };
   };

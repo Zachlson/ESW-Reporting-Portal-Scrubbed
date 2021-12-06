@@ -2,21 +2,25 @@
   {
     "id": 1,
     "fullName": "Greg Hughes",
-    "identifier": "GHughes"
+    "identifier": "GHughes",
+    "inactiveFlag": false
   },
   {
     "id": 2,
     "fullName": "Chris Hams",
-    "identifier": "CHams"
+    "identifier": "CHams",
+    "inactiveFlag": false
   },
   {
     "id": 3,
     "fullName": "Bob Guy",
-    "identifier": "BGuy"
+    "identifier": "BGuy",
+    "inactiveFlag": false
   },
   {
     "id": 4,
     "fullName": "Patty Yu",
-    "identifier": "PYu"
+    "identifier": "PYu",
+    "inactiveFlag": false
   }
 ]

@@ -1,17 +1,11 @@
 import axios from "axios";
-
+import techs from "../data/techs.json";
 export class MemberStore {
-  constructor() {
-    this.membersPromise = axios.get(
-      "https://serene-lake-35109.herokuapp.com/api/members"
-    );
-  }
+  constructor() {}
 
-  getGeneralMemberData = async () => {
-    const members = await this.membersPromise;
-
+  getGeneralMemberData = () => {
     let memberArray = [];
-    members.data.forEach((item) => {
+    techs.forEach((item) => {
       if (item.inactiveFlag === false) {
         const shortObject = {
           memberId: item.id,

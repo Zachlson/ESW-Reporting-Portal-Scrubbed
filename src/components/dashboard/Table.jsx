@@ -94,14 +94,14 @@ const Table = ({
                       {currentToggle === "Ticket"
                         ? row.recentTickets
                         : currentToggle === "Agreement"
-                        ? row.expriningAgreements
+                        ? row.monthlyRevenue
                         : row.yearlyExpiring}
                     </StyledTD>
                     <StyledTD id={row.companyId}>
                       {currentToggle === "Ticket"
                         ? row.agingTickets
                         : currentToggle === "Agreement"
-                        ? row.monthlyRevenue
+                        ? row.expriningAgreements
                         : row.expiredConfigs}
                     </StyledTD>
                     <StyledTD id={row.companyId}>{row.tech}</StyledTD>

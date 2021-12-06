@@ -35,18 +35,22 @@ function App() {
         : false
     );
     setUser(localStorage.getItem("esw_user_name"));
-    await memberStore.getGeneralMemberData().then((res) => {
-      setCategoryFilters(res);
-    });
-    await ticketStore.getGeneralTicketData().then((res) => {
-      setGeneralTicketData(res);
-    });
-    await configStore.getGeneralConfigData().then((res) => {
-      setGeneralConfigData(res);
-    });
-    await agreementStore.getGeneralAgreementsData().then((res) => {
-      setGeneralAgreementData(res);
-    });
+    // await memberStore.getGeneralMemberData().then((res) => {
+    //   setCategoryFilters(res);
+    // });
+    // await ticketStore.getGeneralTicketData().then((res) => {
+    //   setGeneralTicketData(res);
+    // });
+    // await configStore.getGeneralConfigData().then((res) => {
+    //   setGeneralConfigData(res);
+    // });
+    // await agreementStore.getGeneralAgreementsData().then((res) => {
+    //   setGeneralAgreementData(res);
+    // });
+    setCategoryFilters(memberStore.getGeneralMemberData());
+    setGeneralTicketData(ticketStore.getGeneralTicketData());
+    setGeneralConfigData(configStore.getGeneralConfigData());
+    setGeneralAgreementData(agreementStore.getGeneralAgreementsData());
     setLoading(false);
     return () => {};
   }, []);

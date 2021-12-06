@@ -1,17 +1,12 @@
 import axios from "axios";
+import tickets from "../data/tickets.json";
 
 export class TicketStore {
-  constructor() {
-    this.ticketsPromise = axios.get(
-      "https://serene-lake-35109.herokuapp.com/api/tickets"
-    );
-  }
+  constructor() {}
 
-  getGeneralTicketData = async () => {
-    const tickets = await this.ticketsPromise;
-
+  getGeneralTicketData = () => {
     const map = new Map();
-    tickets.data.forEach((item) => {
+    tickets.forEach((item) => {
       const shortObject = {
         ticketId: item.id,
         summary: item.summary,

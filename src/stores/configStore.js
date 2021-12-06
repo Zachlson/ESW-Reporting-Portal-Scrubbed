@@ -3,7 +3,7 @@ import configs from "../data/configs.json";
 export class ConfigStore {
   constructor() {}
 
-  getGeneralConfigData = async () => {
+  getGeneralConfigData = () => {
     // const configs = await this.configsPromise;
     const map = new Map();
     configs.forEach((item) => {
@@ -68,20 +68,20 @@ export class ConfigStore {
           activeConfigs++;
 
           if (
-            Date.parse(configs.warrantyExpirationDate - todayDate <= 7884008640)
+            expiryDate - todayDate <= 7884008640 &&
+            expiryDate - todayDate > 0
           ) {
             quarterExpiring++;
           }
 
           if (
-            Date.parse(
-              configs.warrantyExpirationDate - todayDate <= 31556952000
-            )
+            expiryDate - todayDate <= 31556952000 &&
+            expiryDate - todayDate > 0
           ) {
             yearlyExpiring++;
           }
 
-          if (Date.parse(config.warrantyExpirationDate) <= todayDate) {
+          if (expiryDate <= todayDate) {
             expiredConfigs++;
           }
         }
@@ -107,27 +107,29 @@ export class ConfigStore {
     let yearlyExpiring = 0;
     let expired = 0;
     let todayDate;
+    let expiryDate;
 
     for (let [key, value] of configs) {
       value.forEach((config) => {
         todayDate = Date.parse(new Date());
+        expiryDate = Date.parse(config.warrantyExpirationDate);
         if (config.activeFlag === true) {
           active++;
           if (
-            Date.parse(configs.warrantyExpirationDate - todayDate <= 7884008640)
+            expiryDate - todayDate <= 7884008640 &&
+            expiryDate - todayDate > 0
           ) {
             quarterExpiring++;
           }
 
           if (
-            Date.parse(
-              configs.warrantyExpirationDate - todayDate <= 31556952000
-            )
+            expiryDate - todayDate <= 31556952000 &&
+            expiryDate - todayDate > 0
           ) {
             yearlyExpiring++;
           }
 
-          if (Date.parse(config.warrantyExpirationDate) <= todayDate) {
+          if (expiryDate <= todayDate) {
             expired++;
           }
         }
@@ -139,7 +141,6 @@ export class ConfigStore {
       Yearly_Expiring: yearlyExpiring,
       Expired: expired,
     };
-
     return configTotalObject;
   };
 

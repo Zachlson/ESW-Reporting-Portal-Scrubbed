@@ -33,7 +33,7 @@ export default FilterBox;
 
 const StyledContainer = styled.div`
   height: 197px;
-  width: 211px;
+  min-width: 211px;
   background-color: #373b53;
   border-radius: 10px;
   font-size: 64px;
@@ -53,6 +53,7 @@ const StyledCheckContainer = styled.div`
   font-size: 20px;
 `;
 const StyledNumber = styled.p`
+  margin: 0 10px;
   font-size: 72px;
   color: ${(props) =>
     props.severity === 3
