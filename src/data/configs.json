@@ -1,0 +1,655 @@
+[
+  {
+    "id": 1,
+    "name": "Desktop Station",
+    "type": {
+      "id": 1,
+      "name": "Hardware"
+    },
+    "activeFlag": true,
+    "company": {
+      "name": "General Services LLC"
+    },
+    "_info": {
+      "dateEntered": "2010-12-13T00:00:00Z",
+      "enteredBy": "GHughes"
+    },
+    "contact": {
+      "id": 51243,
+      "name": "Suzy Creamcheese"
+    },
+    "site": {
+      "id": 1244,
+      "name": "Head Office"
+    },
+    "warrantyExpirationDate": "2024-12-13T00:00:00Z",
+    "billFlag": true
+  },
+
+  {
+    "id": 2,
+    "name": "Desktop Station",
+    "type": {
+      "id": 1,
+      "name": "Hardware"
+    },
+    "activeFlag": true,
+    "company": {
+      "name": "General Services LLC"
+    },
+    "_info": {
+      "dateEntered": "2010-12-13T00:00:00Z",
+      "enteredBy": "GHughes"
+    },
+    "contact": {
+      "id": 51243,
+      "name": "Suzy Creamcheese"
+    },
+    "site": {
+      "id": 1244,
+      "name": "Head Office"
+    },
+    "warrantyExpirationDate": "2024-12-13T00:00:00Z",
+    "billFlag": true
+  },
+  {
+    "id": 3,
+    "name": "Desktop Station",
+    "type": {
+      "id": 1,
+      "name": "Hardware"
+    },
+    "activeFlag": true,
+    "company": {
+      "name": "General Services LLC"
+    },
+    "_info": {
+      "dateEntered": "2010-12-13T00:00:00Z",
+      "enteredBy": "GHughes"
+    },
+    "contact": {
+      "id": 51243,
+      "name": "Suzy Creamcheese"
+    },
+    "site": {
+      "id": 1244,
+      "name": "Head Office"
+    },
+    "warrantyExpirationDate": "2024-12-13T00:00:00Z",
+    "billFlag": true
+  },
+  {
+    "id": 10,
+    "name": "Laptop",
+    "type": {
+      "id": 1,
+      "name": "Hardware"
+    },
+    "activeFlag": true,
+    "company": {
+      "name": "General Services LLC"
+    },
+    "_info": {
+      "dateEntered": "2011-11-03T00:00:00Z",
+      "enteredBy": "GHughes"
+    },
+    "contact": {
+      "id": 51243,
+      "name": "Suzy Creamcheese"
+    },
+    "site": {
+      "id": 1244,
+      "name": "Head Office"
+    },
+    "warrantyExpirationDate": "2020-11-03T00:00:00Z",
+    "billFlag": true
+  },
+  {
+    "id": 11,
+    "name": "Laptop",
+    "type": {
+      "id": 1,
+      "name": "Hardware"
+    },
+    "activeFlag": true,
+    "company": {
+      "name": "General Services LLC"
+    },
+    "_info": {
+      "dateEntered": "2011-11-03T00:00:00Z",
+      "enteredBy": "GHughes"
+    },
+    "contact": {
+      "id": 51243,
+      "name": "Suzy Creamcheese"
+    },
+    "site": {
+      "id": 1244,
+      "name": "Head Office"
+    },
+    "warrantyExpirationDate": "2020-11-03T00:00:00Z",
+    "billFlag": true
+  },
+  {
+    "id": 20,
+    "name": "Printer",
+    "type": {
+      "id": 1,
+      "name": "Hardware"
+    },
+    "activeFlag": true,
+    "company": {
+      "name": "General Services LLC"
+    },
+    "_info": {
+      "dateEntered": "2011-11-03T00:00:00Z",
+      "enteredBy": "GHughes"
+    },
+    "contact": {
+      "id": 51243,
+      "name": "Suzy Creamcheese"
+    },
+    "site": {
+      "id": 1244,
+      "name": "Head Office"
+    },
+    "warrantyExpirationDate": "2025-08-03T00:00:00Z",
+    "billFlag": true
+  },
+  {
+    "id": 30,
+    "name": "Office 365",
+    "type": {
+      "id": 2,
+      "name": "Software"
+    },
+    "activeFlag": true,
+    "company": {
+      "name": "General Services LLC"
+    },
+    "_info": {
+      "dateEntered": "2011-11-03T00:00:00Z",
+      "enteredBy": "GHughes"
+    },
+    "contact": {
+      "id": 51243,
+      "name": "Suzy Creamcheese"
+    },
+    "site": {
+      "id": 1244,
+      "name": "Head Office"
+    },
+    "warrantyExpirationDate": "2022-11-03T00:00:00Z",
+    "billFlag": true
+  },
+  {
+    "id": 31,
+    "name": "Norton AV",
+    "type": {
+      "id": 3,
+      "name": "Security"
+    },
+    "activeFlag": false,
+    "company": {
+      "name": "General Services LLC"
+    },
+    "_info": {
+      "dateEntered": "2011-11-03T00:00:00Z",
+      "enteredBy": "GHughes"
+    },
+    "contact": {
+      "id": 51243,
+      "name": "Suzy Creamcheese"
+    },
+    "site": {
+      "id": 1244,
+      "name": "Head Office"
+    },
+    "warrantyExpirationDate": "2018-12-20T00:00:00Z",
+    "billFlag": true
+  },
+  {
+    "id": 4,
+    "name": "Desktop Station",
+    "type": {
+      "id": 1,
+      "name": "Hardware"
+    },
+    "activeFlag": false,
+    "company": {
+      "name": "Conglomerate Company Ltd"
+    },
+    "_info": {
+      "dateEntered": "2018-05-03T00:00:00Z",
+      "enteredBy": "CHams"
+    },
+    "contact": {
+      "id": 54393,
+      "name": "Jim James"
+    },
+    "site": {
+      "id": 1440,
+      "name": "Field Office"
+    },
+    "warrantyExpirationDate": "2022-12-13T00:00:00Z",
+    "billFlag": false
+  },
+
+  {
+    "id": 5,
+    "name": "Desktop Station",
+    "type": {
+      "id": 1,
+      "name": "Hardware"
+    },
+    "activeFlag": true,
+    "company": {
+      "name": "Conglomerate Company Ltd"
+    },
+    "_info": {
+      "dateEntered": "2018-05-03T00:00:00Z",
+      "enteredBy": "CHams"
+    },
+    "contact": {
+      "id": 54393,
+      "name": "Jim James"
+    },
+    "site": {
+      "id": 1440,
+      "name": "Field Office"
+    },
+    "warrantyExpirationDate": "2023-11-15T00:00:00Z",
+    "billFlag": true
+  },
+  {
+    "id": 6,
+    "name": "Desktop Station",
+    "type": {
+      "id": 1,
+      "name": "Hardware"
+    },
+    "activeFlag": false,
+    "company": {
+      "name": "Conglomerate Company Ltd"
+    },
+    "_info": {
+      "dateEntered": "2018-05-03T00:00:00Z",
+      "enteredBy": "CHams"
+    },
+    "contact": {
+      "id": 54393,
+      "name": "Jim James"
+    },
+    "site": {
+      "id": 1440,
+      "name": "Field Office"
+    },
+    "warrantyExpirationDate": "2020-12-13T00:00:00Z",
+    "billFlag": false
+  },
+  {
+    "id": 13,
+    "name": "Laptop",
+    "type": {
+      "id": 1,
+      "name": "Hardware"
+    },
+    "activeFlag": true,
+    "company": {
+      "name": "Conglomerate Company Ltd"
+    },
+    "_info": {
+      "dateEntered": "2010-09-10T00:00:00Z",
+      "enteredBy": "CHams"
+    },
+    "contact": {
+      "id": 54393,
+      "name": "Jim James"
+    },
+    "site": {
+      "id": 1440,
+      "name": "Field Office"
+    },
+    "warrantyExpirationDate": "2022-12-24T00:00:00Z",
+    "billFlag": true
+  },
+  {
+    "id": 14,
+    "name": "Laptop",
+    "type": {
+      "id": 1,
+      "name": "Hardware"
+    },
+    "activeFlag": true,
+    "company": {
+      "name": "Conglomerate Company Ltd"
+    },
+    "_info": {
+      "dateEntered": "2015-09-10T00:00:00Z",
+      "enteredBy": "CHams"
+    },
+    "contact": {
+      "id": 54393,
+      "name": "Jim James"
+    },
+    "site": {
+      "id": 1440,
+      "name": "Field Office"
+    },
+    "warrantyExpirationDate": "2024-11-03T00:00:00Z",
+    "billFlag": true
+  },
+  {
+    "id": 21,
+    "name": "Printer",
+    "type": {
+      "id": 1,
+      "name": "Hardware"
+    },
+    "activeFlag": true,
+    "company": {
+      "name": "Conglomerate Company Ltd"
+    },
+    "_info": {
+      "dateEntered": "2015-09-10T00:00:00Z",
+      "enteredBy": "CHams"
+    },
+    "contact": {
+      "id": 54393,
+      "name": "Jim James"
+    },
+    "site": {
+      "id": 1440,
+      "name": "Field Office"
+    },
+    "warrantyExpirationDate": "2025-08-03T00:00:00Z",
+    "billFlag": true
+  },
+  {
+    "id": 32,
+    "name": "PhotoShop",
+    "type": {
+      "id": 2,
+      "name": "Software"
+    },
+    "activeFlag": false,
+    "company": {
+      "name": "Conglomerate Company Ltd"
+    },
+    "_info": {
+      "dateEntered": "2015-09-10T00:00:00Z",
+      "enteredBy": "CHams"
+    },
+    "contact": {
+      "id": 54393,
+      "name": "Jim James"
+    },
+    "site": {
+      "id": 1440,
+      "name": "Field Office"
+    },
+    "warrantyExpirationDate": "2020-11-03T00:00:00Z",
+    "billFlag": false
+  },
+  {
+    "id": 33,
+    "name": "Norton AV",
+    "type": {
+      "id": 3,
+      "name": "Security"
+    },
+    "activeFlag": true,
+    "company": {
+      "name": "Conglomerate Company Ltd"
+    },
+    "_info": {
+      "dateEntered": "2015-09-10T00:00:00Z",
+      "enteredBy": "CHams"
+    },
+    "contact": {
+      "id": 54393,
+      "name": "Jim James"
+    },
+    "site": {
+      "id": 1440,
+      "name": "Field Office"
+    },
+    "warrantyExpirationDate": "2018-12-20T00:00:00Z",
+    "billFlag": true
+  },
+  {
+    "id": 987,
+    "name": "Desktop Station",
+    "type": {
+      "id": 1,
+      "name": "Hardware"
+    },
+    "activeFlag": false,
+    "company": {
+      "name": "Community"
+    },
+    "_info": {
+      "dateEntered": "2018-05-03T00:00:00Z",
+      "enteredBy": "BGuy"
+    },
+    "contact": {
+      "id": 44534,
+      "name": "Yolanda Young"
+    },
+    "site": {
+      "id": 1560,
+      "name": "Home Office"
+    },
+    "warrantyExpirationDate": "2022-04-13T00:00:00Z",
+    "billFlag": false
+  },
+
+  {
+    "id": 988,
+    "name": "Desktop Station",
+    "type": {
+      "id": 1,
+      "name": "Hardware"
+    },
+    "activeFlag": true,
+    "company": {
+      "name": "Community"
+    },
+    "_info": {
+      "dateEntered": "2010-06-20T00:00:00Z",
+      "enteredBy": "BGuy"
+    },
+    "contact": {
+      "id": 44534,
+      "name": "Yolanda Young"
+    },
+    "site": {
+      "id": 1560,
+      "name": "Home Office"
+    },
+    "warrantyExpirationDate": "2022-04-15T00:00:00Z",
+    "billFlag": true
+  },
+  {
+    "id": 989,
+    "name": "Desktop Station",
+    "type": {
+      "id": 1,
+      "name": "Hardware"
+    },
+    "activeFlag": true,
+    "company": {
+      "name": "Community"
+    },
+    "_info": {
+      "dateEntered": "2010-06-03T00:00:00Z",
+      "enteredBy": "BGuy"
+    },
+    "contact": {
+      "id": 44534,
+      "name": "Yolanda Young"
+    },
+    "site": {
+      "id": 1560,
+      "name": "Home Office"
+    },
+    "warrantyExpirationDate": "2022-06-13T00:00:00Z",
+    "billFlag": true
+  },
+  {
+    "id": 1389,
+    "name": "Laptop",
+    "type": {
+      "id": 1,
+      "name": "Hardware"
+    },
+    "activeFlag": true,
+    "company": {
+      "name": "Community"
+    },
+    "_info": {
+      "dateEntered": "2019-04-13T00:00:00Z",
+      "enteredBy": "BGuy"
+    },
+    "contact": {
+      "id": 44534,
+      "name": "Yolanda Young"
+    },
+    "site": {
+      "id": 1560,
+      "name": "Home Office"
+    },
+    "warrantyExpirationDate": "2021-10-24T00:00:00Z",
+    "billFlag": true
+  },
+  {
+    "id": 14435,
+    "name": "Laptop",
+    "type": {
+      "id": 1,
+      "name": "Hardware"
+    },
+    "activeFlag": true,
+    "company": {
+      "name": "Community"
+    },
+    "_info": {
+      "dateEntered": "2020-05-03T00:00:00Z",
+      "enteredBy": "BGuy"
+    },
+    "contact": {
+      "id": 44534,
+      "name": "Yolanda Young"
+    },
+    "site": {
+      "id": 1560,
+      "name": "Home Office"
+    },
+    "warrantyExpirationDate": "2028-11-03T00:00:00Z",
+    "billFlag": true
+  },
+  {
+    "id": 2132,
+    "name": "Printer",
+    "type": {
+      "id": 1,
+      "name": "Hardware"
+    },
+    "activeFlag": true,
+    "company": {
+      "name": "Community"
+    },
+    "_info": {
+      "dateEntered": "2010-05-03T00:00:00Z",
+      "enteredBy": "BGuy"
+    },
+    "contact": {
+      "id": 44534,
+      "name": "Yolanda Young"
+    },
+    "site": {
+      "id": 1560,
+      "name": "Home Office"
+    },
+    "warrantyExpirationDate": "2020-08-03T00:00:00Z",
+    "billFlag": false
+  },
+  {
+    "id": 323214,
+    "name": "PhotoShop",
+    "type": {
+      "id": 2,
+      "name": "Software"
+    },
+    "activeFlag": true,
+    "company": {
+      "name": "Community"
+    },
+    "_info": {
+      "dateEntered": "2017-08-09T00:00:00Z",
+      "enteredBy": "BGuy"
+    },
+    "contact": {
+      "id": 44534,
+      "name": "Yolanda Young"
+    },
+    "site": {
+      "id": 1560,
+      "name": "Home Office"
+    },
+    "warrantyExpirationDate": "2022-11-03T00:00:00Z",
+    "billFlag": false
+  },
+  {
+    "id": 33324,
+    "name": "Norton AV",
+    "type": {
+      "id": 3,
+      "name": "Security"
+    },
+    "activeFlag": true,
+    "company": {
+      "name": "Community"
+    },
+    "_info": {
+      "dateEntered": "2014-04-04T00:00:00Z",
+      "enteredBy": "BGuy"
+    },
+    "contact": {
+      "id": 44534,
+      "name": "Yolanda Young"
+    },
+    "site": {
+      "id": 1560,
+      "name": "Home Office"
+    },
+    "warrantyExpirationDate": "2022-05-05T00:00:00Z",
+    "billFlag": true
+  },
+  {
+    "id": 33452,
+    "name": "Tablet Monitor",
+    "type": {
+      "id": 1,
+      "name": "Hardware"
+    },
+    "activeFlag": true,
+    "company": {
+      "name": "Sweet Industries"
+    },
+    "_info": {
+      "dateEntered": "2014-04-04T00:00:00Z",
+      "enteredBy": "PYu"
+    },
+    "contact": {
+      "id": 44534,
+      "name": "Nancy Young"
+    },
+    "site": {
+      "id": 1542,
+      "name": "Secondary Office"
+    },
+    "warrantyExpirationDate": "2022-05-05T00:00:00Z",
+    "billFlag": true
+  }
+]

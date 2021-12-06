@@ -1,0 +1,49 @@
+[
+  {
+    "id": "3517fea6-a612-4f4a-8a28-304f9d11be5d",
+    "team_name": "esse",
+    "techs": [
+      "ad897d24-266f-48f8-9c6a-0e72e528b5c7",
+      "7d3d8fcf-b16d-4f1d-b2ea-2cf508516b1d",
+      "945f1f83-3ba5-44a2-8512-bbf4487eb8f2",
+      "69caaced-0642-4a45-9911-e39fc7c3419a",
+      "52781f10-4cd6-4cc8-adca-915df2e180bb",
+      "8128d363-8b8c-497a-a66f-4070c043478a",
+      "46fb76a7-9fd4-4d2f-8d2e-f1e3fc647d09"
+    ],
+    "companies": [
+      "40f35b38-029a-4049-bd20-c2f09fcab8df",
+      "63bfacbd-8aef-480b-8c0a-496f98a7a138",
+      "021dea0a-2ea1-4d23-bd5e-8e54a28bf095",
+      "924f8670-60b2-4ac8-a548-6fb2d42fb607",
+      "a779fdf5-499b-4956-bea0-1f88b937164a"
+    ],
+    "admin": "95fdc515-629e-4393-b098-26fe0e4d3de1"
+  },
+  {
+    "id": "53045718-146d-4182-8318-725885f59862",
+    "team_name": "velit",
+    "techs": [
+      "47bc3528-ee1a-40e3-90f4-2cfdf861c23e",
+      "e98f5204-870b-4405-8fa0-8778537142cb",
+      "be56cc65-e2fd-45f6-910f-b87ccae1d5c7",
+      "71cd3919-7057-42e6-b916-5d1c4c09b398"
+    ],
+    "companies": [
+      "fed5e894-6e3b-44fc-9995-e9fd9731e606",
+      "e95cc701-0378-4cce-a0fd-11365c6b3dd4",
+      "1a25a955-8d18-4a9f-8d5f-ee1d032aad5d"
+    ],
+    "admin": "f93de4fa-affa-4f9f-bdb5-86eebcca5260"
+  },
+  {
+    "id": "5d8d1db8-ea50-4121-8b50-f723c71f0522",
+    "team_name": "Lorem",
+    "techs": [
+      "cbfa49c3-8e09-4ea9-bda6-c7a5b28633d4",
+      "b27daf86-0a07-4d01-95f1-4ce7955e4953"
+    ],
+    "companies": ["f49581a1-2662-4834-81dc-5002852f515e"],
+    "admin": "d5b90d74-b2f6-4baf-a6ad-3305ef74b4dc"
+  }
+]

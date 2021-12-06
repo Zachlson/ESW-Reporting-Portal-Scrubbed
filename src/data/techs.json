@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "fullName": "Greg Hughes",
+    "identifier": "GHughes"
+  },
+  {
+    "id": 2,
+    "fullName": "Chris Hams",
+    "identifier": "CHams"
+  },
+  {
+    "id": 3,
+    "fullName": "Bob Guy",
+    "identifier": "BGuy"
+  },
+  {
+    "id": 4,
+    "fullName": "Patty Yu",
+    "identifier": "PYu"
+  }
+]

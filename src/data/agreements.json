@@ -1,0 +1,980 @@
+[
+  {
+    "id": 1,
+    "name": "MSP",
+    "type": {
+      "id": 1,
+      "name": "MSP 1"
+    },
+    "company": {
+      "id": 41254,
+      "name": "A Company"
+    },
+    "contact": {
+      "id": 32424,
+      "name": "James Doe"
+    },
+    "startDate": "2011-09-01T00:00:00Z",
+    "endDate": "2022-09-01T00:00:00Z",
+    "cancelledFlag": false,
+    "billAmount": 10000.0,
+    "agreementStatus": "Active",
+    "billStartDate": "2011-09-01T00:00:00Z",
+    "invoiceDescription": "This is a very descriptive description about things and stuff",
+    "_info": {
+      "updatedBy": "PYu"
+    },
+    "additions": [
+      {
+        "id": 111,
+        "name": "MSP- Windows",
+        "product": {
+          "id": 11,
+          "identifier": "MSP-MON-Firewall"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "person"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2012-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      },
+      {
+        "id": 222,
+        "name": "MSP - Backups",
+        "product": {
+          "id": 11,
+          "identifier": "MSP-MON-Firewall"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "James Doe"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2020-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 5000.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      },
+      {
+        "id": 3333,
+        "name": "PlaceHolder",
+        "type": {
+          "id": 1,
+          "name": "PlaceHolder"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "person"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2012-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      },
+      {
+        "id": 4444,
+        "name": "PlaceHolder",
+        "type": {
+          "id": 1,
+          "name": "PlaceHolder"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "person"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2012-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Backup Services",
+    "type": {
+      "id": 2,
+      "name": "Backup Services"
+    },
+    "company": {
+      "id": 41254,
+      "name": "A Company"
+    },
+    "contact": {
+      "id": 32424,
+      "name": "James Doe"
+    },
+    "startDate": "2011-09-01T00:00:00Z",
+    "endDate": "2022-04-01T00:00:00Z",
+    "cancelledFlag": false,
+    "billAmount": 1500.0,
+    "agreementStatus": "Active",
+    "billStartDate": "2011-09-01T00:00:00Z",
+    "invoiceDescription": "This is a very descriptive description about things and stuff",
+    "_info": {
+      "updatedBy": "PYu"
+    },
+    "additions": [
+      {
+        "id": 111,
+        "name": "MSP- Windows",
+        "product": {
+          "id": 11,
+          "identifier": "MSP-MON-Firewall"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "person"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2012-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      },
+      {
+        "id": 222,
+        "name": "MSP - Backups",
+        "product": {
+          "id": 11,
+          "identifier": "MSP-MON-Firewall"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "James Doe"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2020-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      },
+      {
+        "id": 3333,
+        "name": "PlaceHolder",
+        "type": {
+          "id": 1,
+          "name": "PlaceHolder"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "person"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2012-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      },
+      {
+        "id": 4444,
+        "name": "PlaceHolder",
+        "type": {
+          "id": 1,
+          "name": "PlaceHolder"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "person"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2012-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "MSP",
+    "type": {
+      "id": 3,
+      "name": "MSP 2"
+    },
+    "company": {
+      "id": 4,
+      "name": "General Services LLC"
+    },
+    "contact": {
+      "id": 51243,
+      "name": "Suzy Creamcheese"
+    },
+    "startDate": "2011-09-01T00:00:00Z",
+    "endDate": "2022-09-01T00:00:00Z",
+    "cancelledFlag": false,
+    "billAmount": 1400.0,
+    "agreementStatus": "Active",
+    "billStartDate": "2011-09-01T00:00:00Z",
+    "invoiceDescription": "This is a very descriptive description about things and stuff",
+    "_info": {
+      "updatedBy": "CHams"
+    },
+    "additions": [
+      {
+        "id": 114,
+        "name": "MSP- Windows",
+        "product": {
+          "id": 11,
+          "identifier": "MSP-MON-Firewall"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "person"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2012-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      },
+      {
+        "id": 224,
+        "name": "MSP - Backups",
+        "product": {
+          "id": 11,
+          "identifier": "MSP-MON-Firewall"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "James Doe"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2020-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      },
+      {
+        "id": 3343,
+        "name": "PlaceHolder",
+        "type": {
+          "id": 1,
+          "name": "PlaceHolder"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "person"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2012-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      },
+      {
+        "id": 4544,
+        "name": "PlaceHolder",
+        "type": {
+          "id": 1,
+          "name": "PlaceHolder"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "person"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2012-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Backup Services",
+    "type": {
+      "id": 2,
+      "name": "Backup Services"
+    },
+    "company": {
+      "id": 4,
+      "name": "General Services LLC"
+    },
+    "contact": {
+      "id": 51243,
+      "name": "Suzy Creamcheese"
+    },
+    "startDate": "2011-09-01T00:00:00Z",
+    "endDate": "2020-09-01T00:00:00Z",
+    "cancelledFlag": false,
+    "billAmount": 1000.0,
+    "agreementStatus": "Expired",
+    "billStartDate": "2011-09-01T00:00:00Z",
+    "invoiceDescription": "This is a very descriptive description about things and stuff",
+    "_info": {
+      "updatedBy": "CHams"
+    },
+    "additions": [
+      {
+        "id": 114,
+        "name": "MSP- Windows",
+        "product": {
+          "id": 11,
+          "identifier": "MSP-MON-Firewall"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "person"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2012-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      },
+      {
+        "id": 224,
+        "name": "MSP - Backups",
+        "product": {
+          "id": 11,
+          "identifier": "MSP-MON-Firewall"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "James Doe"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2020-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Expired",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      },
+      {
+        "id": 3343,
+        "name": "PlaceHolder",
+        "type": {
+          "id": 1,
+          "name": "PlaceHolder"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "person"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2026-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      },
+      {
+        "id": 4544,
+        "name": "PlaceHolder",
+        "type": {
+          "id": 1,
+          "name": "PlaceHolder"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "person"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2012-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      },
+      {
+        "id": 4594,
+        "name": "PlaceHolder",
+        "type": {
+          "id": 1,
+          "name": "PlaceHolder"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "person"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2012-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "MSP",
+    "type": {
+      "id": 1,
+      "name": "MSP 1"
+    },
+    "company": {
+      "id": 5543,
+      "name": "Sweet Industries"
+    },
+    "contact": {
+      "id": 44534,
+      "name": "Nancy Young"
+    },
+    "startDate": "2011-09-01T00:00:00Z",
+    "endDate": "2020-09-01T00:00:00Z",
+    "cancelledFlag": false,
+    "billAmount": 800.0,
+    "agreementStatus": "Expired",
+    "billStartDate": "2011-09-01T00:00:00Z",
+    "invoiceDescription": "This is a very descriptive description about things and stuff",
+    "_info": {
+      "updatedBy": "CHams"
+    },
+    "additions": [
+      {
+        "id": 114,
+        "name": "MSP- Windows",
+        "product": {
+          "id": 11,
+          "identifier": "MSP-MON-Firewall"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "person"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2012-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      },
+      {
+        "id": 224,
+        "name": "MSP - Backups",
+        "product": {
+          "id": 11,
+          "identifier": "MSP-MON-Firewall"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "James Doe"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2020-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      },
+      {
+        "id": 3343,
+        "name": "PlaceHolder",
+        "type": {
+          "id": 1,
+          "name": "PlaceHolder"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "person"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2012-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 780.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Backup Services",
+    "type": {
+      "id": 2,
+      "name": "Backup Services"
+    },
+    "company": {
+      "id": 5543,
+      "name": "Sweet Industries"
+    },
+    "contact": {
+      "id": 44534,
+      "name": "Nancy Young"
+    },
+    "startDate": "2011-09-01T00:00:00Z",
+    "endDate": "2024-09-01T00:00:00Z",
+    "cancelledFlag": false,
+    "billAmount": 0.0,
+    "agreementStatus": "Active",
+    "billStartDate": "2011-09-01T00:00:00Z",
+    "invoiceDescription": "This is a very descriptive description about things and stuff",
+    "_info": {
+      "updatedBy": "CHams"
+    },
+    "additions": [
+      {
+        "id": 114,
+        "name": "MSP- Windows",
+        "product": {
+          "id": 11,
+          "identifier": "MSP-MON-Firewall"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "person"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2012-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      },
+      {
+        "id": 224,
+        "name": "MSP - Backups",
+        "product": {
+          "id": 11,
+          "identifier": "MSP-MON-Firewall"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "James Doe"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2020-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      },
+      {
+        "id": 3343,
+        "name": "PlaceHolder",
+        "type": {
+          "id": 1,
+          "name": "PlaceHolder"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "person"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2012-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "MSP",
+    "type": {
+      "id": 4442,
+      "name": "MSP 3"
+    },
+    "company": {
+      "id": 8897,
+      "name": "Community"
+    },
+    "contact": {
+      "id": 44534,
+      "name": "Yolanda Young"
+    },
+    "startDate": "2011-09-01T00:00:00Z",
+    "endDate": "2024-09-01T00:00:00Z",
+    "cancelledFlag": false,
+    "billAmount": 900.0,
+    "agreementStatus": "Active",
+    "billStartDate": "2011-09-01T00:00:00Z",
+    "invoiceDescription": "This is a very descriptive description about things and stuff",
+    "_info": {
+      "updatedBy": "BGuy"
+    },
+    "additions": [
+      {
+        "id": 114,
+        "name": "MSP- Windows",
+        "product": {
+          "id": 11,
+          "identifier": "MSP-MON-Firewall"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "person"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2012-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      },
+      {
+        "id": 224,
+        "name": "MSP - Backups",
+        "product": {
+          "id": 11,
+          "identifier": "MSP-MON-Firewall"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "James Doe"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2020-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      },
+      {
+        "id": 3343,
+        "name": "PlaceHolder",
+        "type": {
+          "id": 1,
+          "name": "PlaceHolder"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "person"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2012-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "MSP",
+    "type": {
+      "id": 1,
+      "name": "MSP 1"
+    },
+    "company": {
+      "id": 8897,
+      "name": "Community"
+    },
+    "contact": {
+      "id": 44534,
+      "name": "Yolanda Young"
+    },
+    "startDate": "2011-09-01T00:00:00Z",
+    "endDate": "2020-09-01T00:00:00Z",
+    "cancelledFlag": false,
+    "billAmount": 800.0,
+    "agreementStatus": "Expired",
+    "billStartDate": "2011-09-01T00:00:00Z",
+    "invoiceDescription": "This is a very descriptive description about things and stuff",
+    "_info": {
+      "updatedBy": "BGuy"
+    },
+    "additions": [
+      {
+        "id": 114,
+        "name": "MSP- Windows",
+        "product": {
+          "id": 11,
+          "identifier": "MSP-MON-Firewall"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "person"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2012-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      },
+      {
+        "id": 224,
+        "name": "MSP - Backups",
+        "product": {
+          "id": 11,
+          "identifier": "MSP-MON-Firewall"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "James Doe"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2020-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      },
+      {
+        "id": 3343,
+        "name": "PlaceHolder",
+        "type": {
+          "id": 1,
+          "name": "PlaceHolder"
+        },
+        "company": {
+          "id": 41254,
+          "name": "A Company"
+        },
+        "contact": {
+          "id": 32424,
+          "name": "person"
+        },
+        "startDate": "2011-09-01T00:00:00Z",
+        "endDate": "2012-09-01T00:00:00Z",
+        "cancelledFlag": false,
+        "billAmount": 0.0,
+        "agreementStatus": "Active",
+        "billStartDate": "2011-09-01T00:00:00Z",
+        "invoiceDescription": "This is a very descriptive description about things and stuff",
+        "_info": {
+          "updatedBy": "PYu"
+        }
+      }
+    ]
+  }
+]

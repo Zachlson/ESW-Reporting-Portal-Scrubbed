@@ -1,0 +1,102 @@
+ [
+    {
+    
+         "id":"Jan",
+        "month":"Jan",
+        "openTicket":27,
+        "closedTicket":42,
+        "closedTicketColor":"#F96157",
+        "openTicketColor":"#6BBB7C"
+    },
+    {
+        "id":"Feb",
+        "month":"Feb",
+        "openTicket":37,
+        "closedTicket":12,
+        "closedTicketColor":"#F96157",
+        "openTicketColor":"#6BBB7C"
+    },
+
+    { 
+        "id":"Mar",
+        "month":"Mar",
+        "openTicket":47,
+        "closedTicket":17,
+        "closedTicketColor":"#F96157",
+        "openTicketColor":"#6BBB7C"
+    },
+    {
+        "id":"Apr",
+        "month":"Apr",
+        "openTicket":29,
+        "closedTicket":32,
+        "closedTicketColor":"#F96157",
+        "openTicketColor":"#6BBB7C"
+    },
+    {
+        "id":"May",
+        "month":"May",
+        "openTicket":5,
+        "closedTicket":23,
+        "closedTicketColor":"#F96157",
+        "openTicketColor":"#6BBB7C"
+    },
+    {
+        "id":"Jun",
+        "month":"Jun",
+        "openTicket":7,
+        "closedTicket":19,
+        "closedTicketColor":"#F96157",
+        "openTicketColor":"#6BBB7C"
+    },
+    {
+        "id":"Jul",
+        "month":"Jul",
+        "openTicket":26,
+        "closedTicket":33,
+        "closedTicketColor": "#F96157",
+        "openTicketColor":"#6BBB7C"
+        },
+    {
+        "id":"Aug",
+        "month":"Aug",
+        "openTicket":17,
+        "closedTicket":62,
+        "closedTicketColor": "#F96157",
+        "openTicketColor":"#6BBB7C"
+    },
+    {
+        "id":"Sept",
+        "month":"Sept",
+        "openTicket":25,
+        "closedTicket":32,
+        "closedTicketColor": "#F96157",
+        "openTicketColor":"#6BBB7C"
+    },
+    {
+        "id":"Oct",
+        "month":"Oct",
+        "openTicket":37,
+        "closedTicket":12,
+        "closedTicketColor":"#F96157",
+        "openTicketColor":"#6BBB7C"
+    },
+    {
+        "id":"Nov",
+        "month":"Nov",
+        "openTicket":23,
+        "closedTicket":62,
+        "closedTicketColor": "#F96157",
+        "openTicketColor":"#6BBB7C"
+    },
+    {
+        "id":"Dec",
+        "month":"Dec",
+        "openTicket":42,
+        "closedTicket":19,
+        "closedTicketColor": "#F96157",
+        "openTicketColor":"#6BBB7C"
+    }
+    
+    
+    ]

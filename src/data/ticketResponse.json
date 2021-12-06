@@ -1,0 +1,4930 @@
+[
+  {
+    "id": 101,
+    "summary": "password reset",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 1,
+      "name": "Z_Support - Fort St John",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1"
+      }
+    },
+    "status": {
+      "id": 17,
+      "name": ">Resolved with Survey",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/statuses/17"
+      }
+    },
+    "company": {
+      "id": 19297,
+      "identifier": "XYTCo33618",
+      "name": "XYZ Test Company",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19297",
+        "mobileGuid": "cfec5b13-617d-40d8-8e42-46410348588b"
+      }
+    },
+    "site": {
+      "id": 1002,
+      "name": "Main",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19297/sites/1002",
+        "mobileGuid": "865aa637-7bb7-46be-adee-57077b727562"
+      }
+    },
+    "addressLine1": "123 Main Street",
+    "city": "Tampa",
+    "stateIdentifier": "FL",
+    "zip": "33618",
+    "country": {
+      "id": 1,
+      "name": "United States",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/1"
+      }
+    },
+    "contact": {
+      "id": 7,
+      "name": "John Stone",
+      "_info": {
+        "mobileGuid": "27856a01-9718-4177-bf9b-ac8d97231e2e",
+        "contact_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/contacts/7"
+      }
+    },
+    "contactName": "John Stone",
+    "contactPhoneNumber": "813-555-5555",
+    "contactEmailAddress": "dummy@dummy.com",
+    "team": {
+      "id": 1,
+      "name": "Support Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/teams/1"
+      }
+    },
+    "priority": {
+      "id": 10,
+      "name": "Priority 5 - No SLA",
+      "sort": 14,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/10",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/10/image?lm=2017-02-14T18:56:32Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 4,
+      "name": "Remote",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/4"
+      }
+    },
+    "source": {
+      "id": 4,
+      "name": "Email Connector",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/4"
+      }
+    },
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": false,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-07-28T17:39:08Z",
+    "closedBy": "GVoormeulen",
+    "closedFlag": false,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "ActualRates",
+    "subBillingMethod": "ActualRates",
+    "dateResolved": "2011-07-28T17:39:35Z",
+    "dateResplan": "2011-07-28T17:39:35Z",
+    "dateResponded": "2011-07-18T18:53:11Z",
+    "resolveMinutes": 4246,
+    "resPlanMinutes": 0,
+    "respondMinutes": 2,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "NoDefault",
+    "billExpenses": "NoDefault",
+    "billProducts": "Billable",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 1,
+      "identifier": "Support Svc",
+      "name": "Support Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/1"
+      }
+    },
+    "mobileGuid": "5bde8be5-8ecd-4c9f-8739-2c379dcf67a3",
+    "sla": {
+      "id": 5,
+      "name": "No  SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/5"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-07-28T17:39:08Z",
+      "updatedBy": "GVoormeulen",
+      "dateEntered": "2011-07-18T18:51:34Z",
+      "enteredBy": "AZsufa",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=101",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=101",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=101",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/101/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/101/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/101/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=101",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=101",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=101"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "summary": "Weekly Onsite Visit",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 1,
+      "name": "Z_Support - Fort St John",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1"
+      }
+    },
+    "status": {
+      "id": 80,
+      "name": ">Cancelled",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/statuses/80"
+      }
+    },
+    "company": {
+      "id": 19669,
+      "identifier": "MAINoV1J4J2",
+      "name": "Macro Industries Inc.",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19669",
+        "mobileGuid": "63464fb1-b95c-4b93-b986-b7e3796d710e"
+      }
+    },
+    "site": {
+      "id": 1376,
+      "name": "Main Office",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19669/sites/1376",
+        "mobileGuid": "33275fc1-c98c-455c-ada3-fd76fc740a4e"
+      }
+    },
+    "siteName": "Main Office",
+    "addressLine1": "7904-101st Ave",
+    "city": "Fort St. John",
+    "stateIdentifier": "BC",
+    "zip": "V1J 2A3",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contact": {
+      "id": 391,
+      "name": "Lynne Hendersen",
+      "_info": {
+        "mobileGuid": "7dd26435-6ad3-4397-bb4e-a42c3a75c08c",
+        "contact_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/contacts/391"
+      }
+    },
+    "contactName": "Lynne Chapple",
+    "contactPhoneNumber": "250-785-0033",
+    "contactEmailAddress": "dummy@dummy.com",
+    "team": {
+      "id": 1,
+      "name": "Support Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/teams/1"
+      }
+    },
+    "priority": {
+      "id": 8,
+      "name": "Priority 3 - Medium",
+      "sort": 12,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8/image?lm=2017-02-14T18:56:10Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 1,
+      "name": "On-Site",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/1"
+      }
+    },
+    "source": {
+      "id": 3,
+      "name": "Internal",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/3"
+      }
+    },
+    "agreement": {
+      "id": 68,
+      "name": "MSP - SLA (Silver)",
+      "_info": {
+        "agreement_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/agreements/68"
+      }
+    },
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": true,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-09-05T21:49:35Z",
+    "closedBy": "GVoormeulen",
+    "closedFlag": true,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "OverrideRate",
+    "hourlyRate": 98.0,
+    "dateResolved": "2011-09-05T21:49:35Z",
+    "dateResplan": "2011-09-05T21:49:35Z",
+    "dateResponded": "2011-08-31T08:00:08Z",
+    "resolveMinutes": 0,
+    "resPlanMinutes": 0,
+    "respondMinutes": 0,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "NoDefault",
+    "billExpenses": "NoDefault",
+    "billProducts": "NoDefault",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 1,
+      "identifier": "Support Svc",
+      "name": "Support Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/1"
+      }
+    },
+    "mobileGuid": "a104dda7-6a8c-48fd-bc5d-e64daa0405c9",
+    "sla": {
+      "id": 2,
+      "name": "Standard SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/2"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-09-05T21:49:35Z",
+      "updatedBy": "GVoormeulen",
+      "dateEntered": "2011-08-31T08:00:07Z",
+      "enteredBy": "template104",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=105",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=105",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=105",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/105/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/105/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/105/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=105",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=105",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=105"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 50000,
+    "summary": "Contract - Desktop Support from Aug 28 - September 10",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 1,
+      "name": "Z_Support - Fort St John",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1"
+      }
+    },
+    "status": {
+      "id": 17,
+      "name": ">Resolved with Survey",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/statuses/17"
+      }
+    },
+    "company": {
+      "id": 19428,
+      "identifier": "DCCHoV1G3V7",
+      "name": "City of Dawson Creek",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19428",
+        "mobileGuid": "643c61ca-b728-42ff-88db-e64109b27a24"
+      }
+    },
+    "site": {
+      "id": 1134,
+      "name": "Main Office - Site ID 01",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19428/sites/1134",
+        "mobileGuid": "bd3edf30-8d3a-469c-8bc8-9b834e73b4a3"
+      }
+    },
+    "siteName": "Main Office",
+    "addressLine1": "PO Box 150",
+    "city": "Dawson Creek",
+    "stateIdentifier": "BC",
+    "zip": "V1G 3V7",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contact": {
+      "id": 160,
+      "name": "Janet Loiselle",
+      "_info": {
+        "mobileGuid": "f02172af-26e3-4a9b-9138-1db7a5d4524a",
+        "contact_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/contacts/160"
+      }
+    },
+    "contactName": "Janet Loiselle",
+    "contactPhoneNumber": "250-784-3600",
+    "contactEmailAddress": "dummy@dummy.com",
+    "team": {
+      "id": 1,
+      "name": "Support Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/teams/1"
+      }
+    },
+    "priority": {
+      "id": 8,
+      "name": "Priority 3 - Medium",
+      "sort": 12,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8/image?lm=2017-02-14T18:56:10Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 4,
+      "name": "Remote",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/4"
+      }
+    },
+    "source": {
+      "id": 4,
+      "name": "Email Connector",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/4"
+      }
+    },
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": true,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-09-12T18:32:24Z",
+    "closedBy": "DGarland",
+    "closedFlag": true,
+    "actualHours": 44.0,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "OverrideRate",
+    "hourlyRate": 79.0,
+    "subBillingMethod": "ActualRates",
+    "dateResolved": "2011-09-06T15:23:45Z",
+    "dateResplan": "2011-09-06T15:23:45Z",
+    "dateResponded": "2011-08-31T22:42:50Z",
+    "resolveMinutes": 1181,
+    "resPlanMinutes": 0,
+    "respondMinutes": 0,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "NoDefault",
+    "billExpenses": "NoDefault",
+    "billProducts": "Billable",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 1,
+      "identifier": "Support Svc",
+      "name": "Support Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/1"
+      }
+    },
+    "mobileGuid": "3c42ac63-22e7-4b62-a288-4e0ea2d9d6b9",
+    "sla": {
+      "id": 5,
+      "name": "No  SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/5"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-09-12T18:32:24Z",
+      "updatedBy": "DGarland",
+      "dateEntered": "2011-08-31T22:42:50Z",
+      "enteredBy": "AZsufa",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=50000",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=50000",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=50000",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50000/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50000/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50000/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=50000",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50000",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50000"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 50003,
+    "summary": "Monthly Server Maintenance",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 1,
+      "name": "Z_Support - Fort St John",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1"
+      }
+    },
+    "status": {
+      "id": 17,
+      "name": ">Resolved with Survey",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/statuses/17"
+      }
+    },
+    "company": {
+      "id": 20124,
+      "identifier": "ACCEoV1J6W7",
+      "name": "Access Manufacturing Ltd.",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/20124",
+        "mobileGuid": "f893e9c3-52b1-40d4-8c34-cee70da5c790"
+      }
+    },
+    "site": {
+      "id": 2466,
+      "name": "Main Office - Physical",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/20124/sites/2466",
+        "mobileGuid": "a1531a0f-ac4c-4203-8962-58d790d5e0af"
+      }
+    },
+    "siteName": "Main Office - Physical",
+    "addressLine1": "10810 Clairmont Frontage Rd.",
+    "city": "Fort St. John",
+    "stateIdentifier": "BC",
+    "zip": "V1J 6W7",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contact": {
+      "id": 831,
+      "name": "Debby Benterud",
+      "_info": {
+        "mobileGuid": "3eb22a51-f645-42f0-aee7-c30fa039056e",
+        "contact_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/contacts/831"
+      }
+    },
+    "contactName": "Debbie Benterud",
+    "contactPhoneNumber": "250-785-5578",
+    "contactEmailAddress": "dummy@dummy.com",
+    "team": {
+      "id": 1,
+      "name": "Support Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/teams/1"
+      }
+    },
+    "priority": {
+      "id": 8,
+      "name": "Priority 3 - Medium",
+      "sort": 12,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8/image?lm=2017-02-14T18:56:10Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 1,
+      "name": "On-Site",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/1"
+      }
+    },
+    "source": {
+      "id": 3,
+      "name": "Internal",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/3"
+      }
+    },
+    "agreement": {
+      "id": 4,
+      "name": "MSP - SLA (Silver)",
+      "_info": {
+        "agreement_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/agreements/4"
+      }
+    },
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": true,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-10-18T21:53:41Z",
+    "closedBy": "CAuger",
+    "closedFlag": true,
+    "actualHours": 0.5,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "ActualRates",
+    "dateResolved": "2011-10-17T01:00:39Z",
+    "dateResplan": "2011-10-17T01:00:39Z",
+    "dateResponded": "2011-09-01T08:00:03Z",
+    "resolveMinutes": 0,
+    "resPlanMinutes": 0,
+    "respondMinutes": 0,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "Billable",
+    "billExpenses": "Billable",
+    "billProducts": "Billable",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 1,
+      "identifier": "Support Svc",
+      "name": "Support Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/1"
+      }
+    },
+    "mobileGuid": "3e2e89c3-082d-4c78-b721-20c18053eb88",
+    "sla": {
+      "id": 2,
+      "name": "Standard SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/2"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-10-18T21:53:41Z",
+      "updatedBy": "CAuger",
+      "dateEntered": "2011-09-01T08:00:03Z",
+      "enteredBy": "template101",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=50003",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=50003",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=50003",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50003/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50003/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50003/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=50003",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50003",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50003"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 50004,
+    "summary": "Weekly Tech Meeting",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 1,
+      "name": "Z_Support - Fort St John",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1"
+      }
+    },
+    "status": {
+      "id": 17,
+      "name": ">Resolved with Survey",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/statuses/17"
+      }
+    },
+    "company": {
+      "id": 250,
+      "identifier": "ITNOoV1J1W9",
+      "name": "ITnorth.ca",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/250",
+        "mobileGuid": "7f54af20-3b9e-4096-bac5-ff69d1f58f0b"
+      }
+    },
+    "site": {
+      "id": 1000,
+      "name": "Main",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/250/sites/1000",
+        "mobileGuid": "e5e33158-a77b-41e8-845b-6ed6144937e3"
+      }
+    },
+    "siteName": "Main",
+    "addressLine1": "8156 - 100th Avenue",
+    "city": "Fort St. John",
+    "stateIdentifier": "BC",
+    "zip": "V1J 1W5",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contact": {
+      "id": 28,
+      "name": "Akos Zsufa",
+      "_info": {
+        "mobileGuid": "8c1717fe-11d6-4afa-9b3d-956cb5357819",
+        "contact_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/contacts/28"
+      }
+    },
+    "contactName": "Akos Zsufa",
+    "contactPhoneNumber": "250-785-3686",
+    "contactEmailAddress": "dummy@dummy.com",
+    "team": {
+      "id": 1,
+      "name": "Support Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/teams/1"
+      }
+    },
+    "priority": {
+      "id": 12,
+      "name": "Do Not Respond",
+      "sort": 15,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/12",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/12/image?lm=2017-02-14T18:56:36Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 2,
+      "name": "In-house",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/2"
+      }
+    },
+    "source": {
+      "id": 2,
+      "name": "Activity Capture",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/2"
+      }
+    },
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": true,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-10-28T18:45:24Z",
+    "closedBy": "GVoormeulen",
+    "closedFlag": true,
+    "actualHours": 4.0,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "ActualRates",
+    "dateResolved": "2011-10-06T15:38:15Z",
+    "dateResplan": "2011-09-02T14:31:34Z",
+    "dateResponded": "2011-09-01T08:00:08Z",
+    "resolveMinutes": 0,
+    "resPlanMinutes": 0,
+    "respondMinutes": 0,
+    "isInSla": true,
+    "resources": "varun",
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "NoDefault",
+    "billExpenses": "NoDefault",
+    "billProducts": "Billable",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 1,
+      "identifier": "Support Svc",
+      "name": "Support Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/1"
+      }
+    },
+    "mobileGuid": "cfc2e98a-0fcd-4dc8-b10f-b1dd0e5c5684",
+    "sla": {
+      "id": 5,
+      "name": "No  SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/5"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-10-28T18:45:24Z",
+      "updatedBy": "GVoormeulen",
+      "dateEntered": "2011-09-01T08:00:08Z",
+      "enteredBy": "template102",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=50004",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=50004",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=50004",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50004/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50004/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50004/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=50004",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50004",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50004"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 50005,
+    "summary": "Server Down",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 1,
+      "name": "Z_Support - Fort St John",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1"
+      }
+    },
+    "status": {
+      "id": 17,
+      "name": ">Resolved with Survey",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/statuses/17"
+      }
+    },
+    "company": {
+      "id": 20013,
+      "identifier": "DRANoV1J2B2",
+      "name": "Dr. Guessy Wang Inc.",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/20013",
+        "mobileGuid": "779160f6-789d-481c-8b70-a0c75acf32b6"
+      }
+    },
+    "site": {
+      "id": 1721,
+      "name": "Main Office - Site ID 01",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/20013/sites/1721",
+        "mobileGuid": "cc0d1913-f8d6-475d-81d4-12efa87f4eb0"
+      }
+    },
+    "siteName": "Main Office",
+    "addressLine1": "9860 - 101 AVE.",
+    "city": "Fort St John",
+    "stateIdentifier": "BC",
+    "zip": "V1J 2B2",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contact": {
+      "id": 724,
+      "name": "George Andreiuk",
+      "_info": {
+        "mobileGuid": "671d4cbe-7d03-4cbd-8906-be5049357923",
+        "contact_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/contacts/724"
+      }
+    },
+    "contactName": "George Andreiuk",
+    "contactPhoneNumber": "250-785-4513",
+    "contactEmailAddress": "dummy@dummy.com",
+    "team": {
+      "id": 1,
+      "name": "Support Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/teams/1"
+      }
+    },
+    "priority": {
+      "id": 10,
+      "name": "Priority 5 - No SLA",
+      "sort": 14,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/10",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/10/image?lm=2017-02-14T18:56:32Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 4,
+      "name": "Remote",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/4"
+      }
+    },
+    "source": {
+      "id": 4,
+      "name": "Email Connector",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/4"
+      }
+    },
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": true,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-09-21T21:09:57Z",
+    "closedBy": "GVoormeulen",
+    "closedFlag": true,
+    "actualHours": 1.0,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "ActualRates",
+    "subBillingMethod": "ActualRates",
+    "dateResolved": "2011-09-21T21:09:58Z",
+    "dateResplan": "2011-09-06T17:29:59Z",
+    "dateResponded": "2011-09-01T15:31:27Z",
+    "resolveMinutes": 29130,
+    "resPlanMinutes": 0,
+    "respondMinutes": 0,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "NoDefault",
+    "billExpenses": "NoDefault",
+    "billProducts": "NoDefault",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 1,
+      "identifier": "Support Svc",
+      "name": "Support Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/1"
+      }
+    },
+    "mobileGuid": "d9afd7d6-e569-4fb2-a509-1566fa2297fe",
+    "sla": {
+      "id": 5,
+      "name": "No  SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/5"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-10-13T23:09:12Z",
+      "updatedBy": "DGarland",
+      "dateEntered": "2011-09-01T15:31:26Z",
+      "enteredBy": "GVoormeulen",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=50005",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=50005",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=50005",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50005/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50005/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50005/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=50005",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50005",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50005"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 50008,
+    "summary": "Email Connectivity issues",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 1,
+      "name": "Z_Support - Fort St John",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1"
+      }
+    },
+    "status": {
+      "id": 17,
+      "name": ">Resolved with Survey",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/statuses/17"
+      }
+    },
+    "company": {
+      "id": 19669,
+      "identifier": "MAINoV1J4J2",
+      "name": "Macro Industries Inc.",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19669",
+        "mobileGuid": "63464fb1-b95c-4b93-b986-b7e3796d710e"
+      }
+    },
+    "siteName": "Deer lake",
+    "addressLine1": "28 Tower Rd",
+    "city": "Deer lake",
+    "stateIdentifier": "AB",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contactName": "Tracy Bailey",
+    "contactPhoneNumber": "250-329-4176",
+    "contactEmailAddress": "dummy@dummy.com",
+    "team": {
+      "id": 1,
+      "name": "Support Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/teams/1"
+      }
+    },
+    "priority": {
+      "id": 8,
+      "name": "Priority 3 - Medium",
+      "sort": 12,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8/image?lm=2017-02-14T18:56:10Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 4,
+      "name": "Remote",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/4"
+      }
+    },
+    "source": {
+      "id": 1,
+      "name": "Call",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/1"
+      }
+    },
+    "agreement": {
+      "id": 68,
+      "name": "MSP - SLA (Silver)",
+      "_info": {
+        "agreement_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/agreements/68"
+      }
+    },
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": true,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-09-05T21:53:26Z",
+    "closedBy": "GVoormeulen",
+    "closedFlag": true,
+    "actualHours": 1.0,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "ActualRates",
+    "subBillingMethod": "ActualRates",
+    "dateResolved": "2011-09-02T20:35:28Z",
+    "dateResplan": "2011-09-01T17:21:49Z",
+    "dateResponded": "2011-09-01T17:21:49Z",
+    "resolveMinutes": 1634,
+    "resPlanMinutes": 0,
+    "respondMinutes": 0,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "NoDefault",
+    "billExpenses": "NoDefault",
+    "billProducts": "NoDefault",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 1,
+      "identifier": "Support Svc",
+      "name": "Support Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/1"
+      }
+    },
+    "mobileGuid": "6b23c4d7-d3c7-40bb-8d96-94101a3b1f39",
+    "sla": {
+      "id": 2,
+      "name": "Standard SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/2"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-09-05T21:53:25Z",
+      "updatedBy": "GVoormeulen",
+      "dateEntered": "2011-09-01T17:21:49Z",
+      "enteredBy": "JBrowatzke",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=50008",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=50008",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=50008",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50008/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50008/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50008/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=50008",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50008",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50008"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 50009,
+    "summary": "Setup Mobile Device",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 1,
+      "name": "Z_Support - Fort St John",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1"
+      }
+    },
+    "status": {
+      "id": 17,
+      "name": ">Resolved with Survey",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/statuses/17"
+      }
+    },
+    "company": {
+      "id": 19669,
+      "identifier": "MAINoV1J4J2",
+      "name": "Macro Industries Inc.",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19669",
+        "mobileGuid": "63464fb1-b95c-4b93-b986-b7e3796d710e"
+      }
+    },
+    "site": {
+      "id": 1376,
+      "name": "Main Office",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19669/sites/1376",
+        "mobileGuid": "33275fc1-c98c-455c-ada3-fd76fc740a4e"
+      }
+    },
+    "siteName": "Main Office",
+    "addressLine1": "7904-101st Ave",
+    "city": "Fort St. John",
+    "stateIdentifier": "BC",
+    "zip": "V1J 2A3",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contact": {
+      "id": 391,
+      "name": "Lynne Hendersen",
+      "_info": {
+        "mobileGuid": "7dd26435-6ad3-4397-bb4e-a42c3a75c08c",
+        "contact_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/contacts/391"
+      }
+    },
+    "contactName": "Lynne Chapple",
+    "contactPhoneNumber": "250-785-0033",
+    "contactEmailAddress": "dummy@dummy.com",
+    "team": {
+      "id": 1,
+      "name": "Support Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/teams/1"
+      }
+    },
+    "priority": {
+      "id": 8,
+      "name": "Priority 3 - Medium",
+      "sort": 12,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8/image?lm=2017-02-14T18:56:10Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 4,
+      "name": "Remote",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/4"
+      }
+    },
+    "source": {
+      "id": 4,
+      "name": "Email Connector",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/4"
+      }
+    },
+    "agreement": {
+      "id": 68,
+      "name": "MSP - SLA (Silver)",
+      "_info": {
+        "agreement_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/agreements/68"
+      }
+    },
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": true,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-09-02T16:39:14Z",
+    "closedBy": "CAuger",
+    "closedFlag": true,
+    "actualHours": 0.25,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "ActualRates",
+    "subBillingMethod": "ActualRates",
+    "dateResolved": "2011-09-02T14:31:09Z",
+    "dateResplan": "2011-09-02T14:31:09Z",
+    "dateResponded": "2011-09-01T19:46:28Z",
+    "resolveMinutes": 1125,
+    "resPlanMinutes": 0,
+    "respondMinutes": 0,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "NoDefault",
+    "billExpenses": "NoDefault",
+    "billProducts": "NoDefault",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 1,
+      "identifier": "Support Svc",
+      "name": "Support Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/1"
+      }
+    },
+    "mobileGuid": "9539d03b-1540-46e3-99a3-4894a471cb47",
+    "sla": {
+      "id": 2,
+      "name": "Standard SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/2"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-09-02T16:39:14Z",
+      "updatedBy": "CAuger",
+      "dateEntered": "2011-09-01T19:46:28Z",
+      "enteredBy": "CAuger",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=50009",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=50009",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=50009",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50009/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50009/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50009/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=50009",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50009",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50009"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 50010,
+    "summary": "DS-JNQGB   MWW #224",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 1,
+      "name": "Z_Support - Fort St John",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1"
+      }
+    },
+    "status": {
+      "id": 80,
+      "name": ">Cancelled",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/statuses/80"
+      }
+    },
+    "company": {
+      "id": 19593,
+      "identifier": "IBGSoT2R1R9",
+      "name": "IBM Global Services",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19593",
+        "mobileGuid": "a5fe28c3-629e-43f0-81ac-53a9b99a2005"
+      }
+    },
+    "site": {
+      "id": 1300,
+      "name": "Main Office",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19593/sites/1300",
+        "mobileGuid": "09949eb1-f051-47c9-87d2-f9975b18bccd"
+      }
+    },
+    "siteName": "Main Office",
+    "addressLine1": "227 - 11 Ave. S.W.",
+    "city": "Calgary",
+    "stateIdentifier": "AB",
+    "zip": "T2R 1R9",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contact": {
+      "id": 320,
+      "name": "Chris Steketee",
+      "_info": {
+        "mobileGuid": "7f0091f1-d716-4e6b-b01c-9705ade13caa",
+        "contact_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/contacts/320"
+      }
+    },
+    "contactName": "Chris Steketee",
+    "contactPhoneNumber": "877-327-4746",
+    "contactPhoneExtension": "928",
+    "contactEmailAddress": "dummy@dummy.com",
+    "team": {
+      "id": 1,
+      "name": "Support Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/teams/1"
+      }
+    },
+    "priority": {
+      "id": 6,
+      "name": "Priority 1 - Critical",
+      "sort": 10,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/6",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/6/image?lm=2017-02-14T18:56:00Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 1,
+      "name": "On-Site",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/1"
+      }
+    },
+    "source": {
+      "id": 3,
+      "name": "Internal",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/3"
+      }
+    },
+    "requiredDate": "2011-09-01T00:00:00Z",
+    "budgetHours": 2.0,
+    "severity": "High",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": true,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-09-16T16:51:54Z",
+    "closedBy": "GVoormeulen",
+    "closedFlag": true,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "ActualRates",
+    "subBillingMethod": "ActualRates",
+    "dateResolved": "2011-09-16T16:51:54Z",
+    "dateResplan": "2011-09-16T16:51:54Z",
+    "dateResponded": "2011-09-01T21:18:17Z",
+    "resolveMinutes": 642,
+    "resPlanMinutes": 0,
+    "respondMinutes": 0,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "NoDefault",
+    "billExpenses": "NoDefault",
+    "billProducts": "Billable",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 1,
+      "identifier": "Support Svc",
+      "name": "Support Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/1"
+      }
+    },
+    "mobileGuid": "b2e8b0b5-3ef9-4b75-b9df-5a7c41adad01",
+    "sla": {
+      "id": 5,
+      "name": "No  SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/5"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-09-16T16:51:54Z",
+      "updatedBy": "GVoormeulen",
+      "dateEntered": "2011-09-01T21:18:17Z",
+      "enteredBy": "JEllendt",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=50010",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=50010",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=50010",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50010/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50010/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50010/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=50010",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50010",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50010"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 50011,
+    "summary": "Steve's Personal PC",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 1,
+      "name": "Z_Support - Fort St John",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1"
+      }
+    },
+    "status": {
+      "id": 17,
+      "name": ">Resolved with Survey",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/statuses/17"
+      }
+    },
+    "company": {
+      "id": 19956,
+      "identifier": "TROYoV1J5Z3",
+      "name": "Troyer Ventures Ltd.",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19956",
+        "mobileGuid": "e2700142-3ffc-4fc1-9933-bf45f6b7e1f7"
+      }
+    },
+    "site": {
+      "id": 1664,
+      "name": "Fort St John Branch",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19956/sites/1664",
+        "mobileGuid": "d9976539-3566-4c82-9445-9c94b9a444ea"
+      }
+    },
+    "siteName": "Main Office",
+    "addressLine1": "9303-85th Ave",
+    "city": "Fort St. John",
+    "stateIdentifier": "BC",
+    "zip": "V1J 5Z3",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contact": {
+      "id": 670,
+      "name": "Steve Troyer",
+      "_info": {
+        "mobileGuid": "2bfbf131-97b6-48bb-9c5e-73b89ac42dc9",
+        "contact_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/contacts/670"
+      }
+    },
+    "contactName": "Steve Troyer",
+    "contactPhoneNumber": "250-785-5332",
+    "contactEmailAddress": "dummy@dummy.com",
+    "type": {
+      "id": 18,
+      "name": "Workstation",
+      "_info": {
+        "type_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/types/18"
+      }
+    },
+    "team": {
+      "id": 1,
+      "name": "Support Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/teams/1"
+      }
+    },
+    "priority": {
+      "id": 8,
+      "name": "Priority 3 - Medium",
+      "sort": 12,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8/image?lm=2017-02-14T18:56:10Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 4,
+      "name": "Remote",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/4"
+      }
+    },
+    "source": {
+      "id": 4,
+      "name": "Email Connector",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/4"
+      }
+    },
+    "budgetHours": 2.0,
+    "agreement": {
+      "id": 15,
+      "name": "MSP - SLA (Silver)",
+      "_info": {
+        "agreement_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/agreements/15"
+      }
+    },
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": false,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-09-29T17:03:48Z",
+    "closedBy": "CAuger",
+    "closedFlag": true,
+    "actualHours": 5.75,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "ActualRates",
+    "subBillingMethod": "ActualRates",
+    "dateResolved": "2011-09-26T22:40:04Z",
+    "dateResplan": "2011-09-13T18:08:04Z",
+    "dateResponded": "2011-09-01T23:07:56Z",
+    "resolveMinutes": 18992,
+    "resPlanMinutes": 5613,
+    "respondMinutes": 6,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "NoDefault",
+    "billExpenses": "NoDefault",
+    "billProducts": "NoDefault",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 1,
+      "identifier": "Support Svc",
+      "name": "Support Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/1"
+      }
+    },
+    "mobileGuid": "a00aea2c-e18d-4ca5-81a3-12e7e76713b3",
+    "sla": {
+      "id": 2,
+      "name": "Standard SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/2"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-09-29T17:03:47Z",
+      "updatedBy": "CAuger",
+      "dateEntered": "2011-09-01T23:01:23Z",
+      "enteredBy": "JEllendt",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=50011",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=50011",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=50011",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50011/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50011/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50011/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=50011",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50011",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50011"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 50012,
+    "summary": "Help Reset Cory Auger's Password",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 1,
+      "name": "Z_Support - Fort St John",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1"
+      }
+    },
+    "status": {
+      "id": 17,
+      "name": ">Resolved with Survey",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/statuses/17"
+      }
+    },
+    "company": {
+      "id": 20014,
+      "identifier": "SUREoV1J6G9",
+      "name": "Surerus Construction & Development Ltd.",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/20014",
+        "mobileGuid": "d4265784-f2b2-4e91-a7f8-0bcae8b04ec9"
+      }
+    },
+    "site": {
+      "id": 1722,
+      "name": "Main Office",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/20014/sites/1722",
+        "mobileGuid": "ed50edb7-048e-4eba-8d54-446b0b4f1519"
+      }
+    },
+    "siteName": "Main Office",
+    "addressLine1": "9312-109 St.",
+    "city": "Fort St. John",
+    "stateIdentifier": "BC",
+    "zip": "V1J 6G9",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contact": {
+      "id": 725,
+      "name": "Rob Neufeld",
+      "_info": {
+        "mobileGuid": "81d26476-e465-4c56-84c8-ec8d566926fe",
+        "contact_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/contacts/725"
+      }
+    },
+    "contactName": "Sherill Anderson",
+    "contactPhoneNumber": "250-785-2423",
+    "contactEmailAddress": "dummy@dummy.com",
+    "team": {
+      "id": 1,
+      "name": "Support Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/teams/1"
+      }
+    },
+    "priority": {
+      "id": 8,
+      "name": "Priority 3 - Medium",
+      "sort": 12,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8/image?lm=2017-02-14T18:56:10Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 4,
+      "name": "Remote",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/4"
+      }
+    },
+    "source": {
+      "id": 4,
+      "name": "Email Connector",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/4"
+      }
+    },
+    "agreement": {
+      "id": 42,
+      "name": "MSP - SLA (Silver)",
+      "_info": {
+        "agreement_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/agreements/42"
+      }
+    },
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": true,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-09-05T22:00:39Z",
+    "closedBy": "GVoormeulen",
+    "closedFlag": true,
+    "actualHours": 0.25,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "ActualRates",
+    "subBillingMethod": "ActualRates",
+    "dateResolved": "2011-09-01T23:28:08Z",
+    "dateResplan": "2011-09-01T23:28:08Z",
+    "dateResponded": "2011-09-01T23:28:08Z",
+    "resolveMinutes": 14,
+    "resPlanMinutes": 0,
+    "respondMinutes": 0,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "NoDefault",
+    "billExpenses": "NoDefault",
+    "billProducts": "NoDefault",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 1,
+      "identifier": "Support Svc",
+      "name": "Support Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/1"
+      }
+    },
+    "mobileGuid": "a290a615-c7b0-433c-a654-b81f1973178a",
+    "sla": {
+      "id": 2,
+      "name": "Standard SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/2"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-09-05T22:00:39Z",
+      "updatedBy": "GVoormeulen",
+      "dateEntered": "2011-09-01T23:14:27Z",
+      "enteredBy": "VIrene",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=50012",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=50012",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=50012",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50012/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50012/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50012/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=50012",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50012",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50012"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 50013,
+    "summary": "Training - Basics as per quote",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 25,
+      "name": "TRN-FJ",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/25"
+      }
+    },
+    "status": {
+      "id": 470,
+      "name": ">Resolved",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/25/statuses/470"
+      }
+    },
+    "company": {
+      "id": 20124,
+      "identifier": "ACCEoV1J6W7",
+      "name": "Access Manufacturing Ltd.",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/20124",
+        "mobileGuid": "f893e9c3-52b1-40d4-8c34-cee70da5c790"
+      }
+    },
+    "site": {
+      "id": 2466,
+      "name": "Main Office - Physical",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/20124/sites/2466",
+        "mobileGuid": "a1531a0f-ac4c-4203-8962-58d790d5e0af"
+      }
+    },
+    "siteName": "Main Office - Physical",
+    "addressLine1": "10810 Clairmont Frontage Rd.",
+    "city": "Fort St. John",
+    "stateIdentifier": "BC",
+    "zip": "V1J 6W7",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contact": {
+      "id": 831,
+      "name": "Debby Benterud",
+      "_info": {
+        "mobileGuid": "3eb22a51-f645-42f0-aee7-c30fa039056e",
+        "contact_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/contacts/831"
+      }
+    },
+    "contactName": "Debbie Benterud",
+    "contactPhoneNumber": "250-785-5578",
+    "contactEmailAddress": "dummy@dummy.com",
+    "team": {
+      "id": 6,
+      "name": "Training Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/25/teams/6"
+      }
+    },
+    "priority": {
+      "id": 8,
+      "name": "Priority 3 - Medium",
+      "sort": 12,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8/image?lm=2017-02-14T18:56:10Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 1,
+      "name": "On-Site",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/1"
+      }
+    },
+    "source": {
+      "id": 4,
+      "name": "Email Connector",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/4"
+      }
+    },
+    "budgetHours": 3.0,
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": false,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-09-02T15:50:02Z",
+    "closedBy": "PMaloney",
+    "closedFlag": true,
+    "actualHours": 3.0,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "ActualRates",
+    "subBillingMethod": "ActualRates",
+    "dateResolved": "2011-09-02T15:50:02Z",
+    "dateResplan": "2011-09-02T15:50:02Z",
+    "dateResponded": "2011-09-02T00:56:51Z",
+    "resolveMinutes": 110,
+    "resPlanMinutes": 0,
+    "respondMinutes": 0,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "NoDefault",
+    "billExpenses": "NoDefault",
+    "billProducts": "Billable",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 9,
+      "identifier": "Training Svc",
+      "name": "Training Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/9"
+      }
+    },
+    "mobileGuid": "13dcf6b0-11a9-4583-9ede-ecdb8917317b",
+    "sla": {
+      "id": 5,
+      "name": "No  SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/5"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-09-02T15:50:02Z",
+      "updatedBy": "PMaloney",
+      "dateEntered": "2011-09-02T00:56:33Z",
+      "enteredBy": "PMaloney",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=50013",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=50013",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=50013",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50013/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50013/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50013/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=50013",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50013",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50013"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 50014,
+    "summary": "Training",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 25,
+      "name": "TRN-FJ",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/25"
+      }
+    },
+    "status": {
+      "id": 470,
+      "name": ">Resolved",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/25/statuses/470"
+      }
+    },
+    "company": {
+      "id": 20864,
+      "identifier": "Westergaard Tina",
+      "name": "Westergaard, Tina",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/20864",
+        "mobileGuid": "5f5a8ea2-4453-45b5-a49b-c91a919cbacb"
+      }
+    },
+    "site": {
+      "id": 2619,
+      "name": "Main Office",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/20864/sites/2619",
+        "mobileGuid": "169e87ba-dcfc-4902-a9d1-1c5d41a2e315"
+      }
+    },
+    "city": "Fort St. John",
+    "stateIdentifier": "BC",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contact": {
+      "id": 1533,
+      "name": "Tina Westergaard",
+      "_info": {
+        "mobileGuid": "d0d0afdd-e52a-4ff7-9f81-e63fe0309e20",
+        "contact_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/contacts/1533"
+      }
+    },
+    "contactName": "Tina Westergaard",
+    "contactPhoneNumber": "250-785-5896",
+    "contactEmailAddress": "dummy@dummy.com",
+    "team": {
+      "id": 6,
+      "name": "Training Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/25/teams/6"
+      }
+    },
+    "priority": {
+      "id": 8,
+      "name": "Priority 3 - Medium",
+      "sort": 12,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8/image?lm=2017-02-14T18:56:10Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 4,
+      "name": "Remote",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/4"
+      }
+    },
+    "source": {
+      "id": 4,
+      "name": "Email Connector",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/4"
+      }
+    },
+    "requiredDate": "2011-09-07T00:00:00Z",
+    "budgetHours": 32.0,
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": false,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-09-06T23:12:43Z",
+    "closedBy": "PMaloney",
+    "closedFlag": true,
+    "actualHours": 32.0,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "OverrideRate",
+    "hourlyRate": 23.0,
+    "subBillingMethod": "ActualRates",
+    "dateResolved": "2011-09-06T23:12:43Z",
+    "dateResplan": "2011-09-06T23:12:43Z",
+    "dateResponded": "2011-09-02T01:19:44Z",
+    "resolveMinutes": 1080,
+    "resPlanMinutes": 0,
+    "respondMinutes": 0,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "NoDefault",
+    "billExpenses": "NoDefault",
+    "billProducts": "Billable",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 9,
+      "identifier": "Training Svc",
+      "name": "Training Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/9"
+      }
+    },
+    "mobileGuid": "196abfe3-5053-4788-b074-8b004ad63559",
+    "sla": {
+      "id": 5,
+      "name": "No  SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/5"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-09-06T23:12:43Z",
+      "updatedBy": "PMaloney",
+      "dateEntered": "2011-09-02T01:10:26Z",
+      "enteredBy": "PMaloney",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=50014",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=50014",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=50014",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50014/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50014/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50014/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=50014",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50014",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50014"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 50015,
+    "summary": "Weekly Onsite Visit",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 1,
+      "name": "Z_Support - Fort St John",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1"
+      }
+    },
+    "status": {
+      "id": 17,
+      "name": ">Resolved with Survey",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/statuses/17"
+      }
+    },
+    "company": {
+      "id": 19669,
+      "identifier": "MAINoV1J4J2",
+      "name": "Macro Industries Inc.",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19669",
+        "mobileGuid": "63464fb1-b95c-4b93-b986-b7e3796d710e"
+      }
+    },
+    "site": {
+      "id": 1376,
+      "name": "Main Office",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19669/sites/1376",
+        "mobileGuid": "33275fc1-c98c-455c-ada3-fd76fc740a4e"
+      }
+    },
+    "siteName": "Main Office",
+    "addressLine1": "7904-101st Ave",
+    "city": "Fort St. John",
+    "stateIdentifier": "BC",
+    "zip": "V1J 2A3",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contact": {
+      "id": 391,
+      "name": "Lynne Hendersen",
+      "_info": {
+        "mobileGuid": "7dd26435-6ad3-4397-bb4e-a42c3a75c08c",
+        "contact_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/contacts/391"
+      }
+    },
+    "contactName": "Lynne Chapple",
+    "contactPhoneNumber": "250-785-0033",
+    "contactEmailAddress": "dummy@dummy.com",
+    "team": {
+      "id": 1,
+      "name": "Support Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/teams/1"
+      }
+    },
+    "priority": {
+      "id": 8,
+      "name": "Priority 3 - Medium",
+      "sort": 12,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8/image?lm=2017-02-14T18:56:10Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 1,
+      "name": "On-Site",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/1"
+      }
+    },
+    "source": {
+      "id": 3,
+      "name": "Internal",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/3"
+      }
+    },
+    "agreement": {
+      "id": 68,
+      "name": "MSP - SLA (Silver)",
+      "_info": {
+        "agreement_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/agreements/68"
+      }
+    },
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": true,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-09-13T02:25:47Z",
+    "closedBy": "GVoormeulen",
+    "closedFlag": true,
+    "actualHours": 4.0,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "OverrideRate",
+    "hourlyRate": 98.0,
+    "dateResolved": "2011-09-05T07:08:35Z",
+    "dateResplan": "2011-09-02T20:42:38Z",
+    "dateResponded": "2011-09-02T08:00:06Z",
+    "resolveMinutes": 0,
+    "resPlanMinutes": 0,
+    "respondMinutes": 0,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "NoDefault",
+    "billExpenses": "NoDefault",
+    "billProducts": "NoDefault",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 1,
+      "identifier": "Support Svc",
+      "name": "Support Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/1"
+      }
+    },
+    "mobileGuid": "ac498182-1cd1-46d4-937a-748e4be52dcc",
+    "sla": {
+      "id": 2,
+      "name": "Standard SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/2"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-09-13T02:25:47Z",
+      "updatedBy": "GVoormeulen",
+      "dateEntered": "2011-09-02T08:00:06Z",
+      "enteredBy": "template104",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=50015",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=50015",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=50015",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50015/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50015/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50015/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=50015",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50015",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50015"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 50016,
+    "summary": "Issue with Email Signature",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 1,
+      "name": "Z_Support - Fort St John",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1"
+      }
+    },
+    "status": {
+      "id": 17,
+      "name": ">Resolved with Survey",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/statuses/17"
+      }
+    },
+    "company": {
+      "id": 19481,
+      "identifier": "ENSIoV1J4J1",
+      "name": "Energetic Services Inc.",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19481",
+        "mobileGuid": "888b074f-0b81-4fc3-873d-f10ceeefebe4"
+      }
+    },
+    "site": {
+      "id": 2609,
+      "name": "Main Office - Physical",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19481/sites/2609",
+        "mobileGuid": "3ae670d5-d620-4a81-a8b8-5390d7bd284f"
+      }
+    },
+    "siteName": "Main Office - Physical",
+    "addressLine1": "Mile 54",
+    "city": "Fort St. John",
+    "stateIdentifier": "BC",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contact": {
+      "id": 214,
+      "name": "Olga Gregoire",
+      "_info": {
+        "mobileGuid": "90122499-e1b8-4f15-b8f3-2bc75825689a",
+        "contact_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/contacts/214"
+      }
+    },
+    "contactName": "Tina Carter",
+    "contactPhoneNumber": "250-785-4761",
+    "contactEmailAddress": "dummy@dummy.com",
+    "type": {
+      "id": 18,
+      "name": "Workstation",
+      "_info": {
+        "type_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/types/18"
+      }
+    },
+    "team": {
+      "id": 1,
+      "name": "Support Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/teams/1"
+      }
+    },
+    "priority": {
+      "id": 8,
+      "name": "Priority 3 - Medium",
+      "sort": 12,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8/image?lm=2017-02-14T18:56:10Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 4,
+      "name": "Remote",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/4"
+      }
+    },
+    "source": {
+      "id": 4,
+      "name": "Email Connector",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/4"
+      }
+    },
+    "requiredDate": "2011-09-02T00:00:00Z",
+    "budgetHours": 0.25,
+    "agreement": {
+      "id": 67,
+      "name": "Monthly SLA Flat Fee Agreement",
+      "_info": {
+        "agreement_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/agreements/67"
+      }
+    },
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": true,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-09-05T21:53:51Z",
+    "closedBy": "GVoormeulen",
+    "closedFlag": true,
+    "actualHours": 0.25,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "ActualRates",
+    "subBillingMethod": "ActualRates",
+    "dateResolved": "2011-09-02T16:32:45Z",
+    "dateResplan": "2011-09-02T16:28:25Z",
+    "dateResponded": "2011-09-02T16:28:25Z",
+    "resolveMinutes": 5,
+    "resPlanMinutes": 0,
+    "respondMinutes": 0,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "Billable",
+    "billExpenses": "Billable",
+    "billProducts": "Billable",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 1,
+      "identifier": "Support Svc",
+      "name": "Support Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/1"
+      }
+    },
+    "mobileGuid": "82233eac-5f37-424a-924f-134061e60e40",
+    "sla": {
+      "id": 2,
+      "name": "Standard SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/2"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-09-05T21:53:51Z",
+      "updatedBy": "GVoormeulen",
+      "dateEntered": "2011-09-02T16:25:30Z",
+      "enteredBy": "LForman",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=50016",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=50016",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=50016",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50016/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50016/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50016/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=50016",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50016",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50016"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 50017,
+    "summary": "Lyle's PC is not working",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 1,
+      "name": "Z_Support - Fort St John",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1"
+      }
+    },
+    "status": {
+      "id": 17,
+      "name": ">Resolved with Survey",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/statuses/17"
+      }
+    },
+    "company": {
+      "id": 19398,
+      "identifier": "CARIoV1J4J1",
+      "name": "Cancor Rathole Inc.",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19398",
+        "mobileGuid": "6b34d358-c321-4ab6-93ae-1a8bd5fcc5f0"
+      }
+    },
+    "site": {
+      "id": 1104,
+      "name": "Main Office",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19398/sites/1104",
+        "mobileGuid": "db54c8cd-49e7-4c43-b3cb-798ba5f11ef8"
+      }
+    },
+    "siteName": "Main Office",
+    "addressLine1": "Box 6646",
+    "city": "Fort St. John",
+    "stateIdentifier": "BC",
+    "zip": "V1J 4J1",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contact": {
+      "id": 132,
+      "name": "Lyle Fenton",
+      "_info": {
+        "mobileGuid": "9a736690-34e5-49c7-981c-b7446434dbcc",
+        "contact_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/contacts/132"
+      }
+    },
+    "contactName": "Lyle Fenton",
+    "contactPhoneNumber": "250-787-5555",
+    "contactEmailAddress": "dummy@dummy.com",
+    "team": {
+      "id": 1,
+      "name": "Support Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/teams/1"
+      }
+    },
+    "priority": {
+      "id": 8,
+      "name": "Priority 3 - Medium",
+      "sort": 12,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8/image?lm=2017-02-14T18:56:10Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 2,
+      "name": "In-house",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/2"
+      }
+    },
+    "source": {
+      "id": 4,
+      "name": "Email Connector",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/4"
+      }
+    },
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": false,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-10-18T21:53:59Z",
+    "closedBy": "CAuger",
+    "closedFlag": true,
+    "actualHours": 2.0,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "ActualRates",
+    "subBillingMethod": "ActualRates",
+    "dateResolved": "2011-10-14T18:25:39Z",
+    "dateResplan": "2011-09-05T22:52:25Z",
+    "dateResponded": "2011-09-02T16:25:36Z",
+    "resolveMinutes": 14270,
+    "resPlanMinutes": 395,
+    "respondMinutes": 0,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "NoDefault",
+    "billExpenses": "NoDefault",
+    "billProducts": "Billable",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 1,
+      "identifier": "Support Svc",
+      "name": "Support Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/1"
+      }
+    },
+    "mobileGuid": "358c3255-f4a6-4076-8a6d-a105d1b33325",
+    "sla": {
+      "id": 5,
+      "name": "No  SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/5"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-10-18T21:53:59Z",
+      "updatedBy": "CAuger",
+      "dateEntered": "2011-09-02T16:25:34Z",
+      "enteredBy": "CAuger",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=50017",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=50017",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=50017",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50017/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50017/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50017/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=50017",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50017",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50017"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 50018,
+    "summary": "Sean could not access remote portal to retrieve documents",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 1,
+      "name": "Z_Support - Fort St John",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1"
+      }
+    },
+    "status": {
+      "id": 17,
+      "name": ">Resolved with Survey",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/statuses/17"
+      }
+    },
+    "company": {
+      "id": 20014,
+      "identifier": "SUREoV1J6G9",
+      "name": "Surerus Construction & Development Ltd.",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/20014",
+        "mobileGuid": "d4265784-f2b2-4e91-a7f8-0bcae8b04ec9"
+      }
+    },
+    "site": {
+      "id": 1722,
+      "name": "Main Office",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/20014/sites/1722",
+        "mobileGuid": "ed50edb7-048e-4eba-8d54-446b0b4f1519"
+      }
+    },
+    "siteName": "Main Office",
+    "addressLine1": "9312-109 St.",
+    "city": "Fort St. John",
+    "stateIdentifier": "BC",
+    "zip": "V1J 6G9",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contact": {
+      "id": 725,
+      "name": "Rob Neufeld",
+      "_info": {
+        "mobileGuid": "81d26476-e465-4c56-84c8-ec8d566926fe",
+        "contact_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/contacts/725"
+      }
+    },
+    "contactName": "Sherill Anderson",
+    "contactPhoneNumber": "250-785-2423",
+    "contactEmailAddress": "dummy@dummy.com",
+    "team": {
+      "id": 1,
+      "name": "Support Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/teams/1"
+      }
+    },
+    "priority": {
+      "id": 8,
+      "name": "Priority 3 - Medium",
+      "sort": 12,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8/image?lm=2017-02-14T18:56:10Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 4,
+      "name": "Remote",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/4"
+      }
+    },
+    "source": {
+      "id": 4,
+      "name": "Email Connector",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/4"
+      }
+    },
+    "agreement": {
+      "id": 42,
+      "name": "MSP - SLA (Silver)",
+      "_info": {
+        "agreement_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/agreements/42"
+      }
+    },
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": true,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-10-31T20:42:22Z",
+    "closedBy": "CAuger",
+    "closedFlag": true,
+    "actualHours": 0.5,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "ActualRates",
+    "subBillingMethod": "ActualRates",
+    "dateResolved": "2011-10-28T16:50:13Z",
+    "dateResplan": "2011-09-02T16:51:57Z",
+    "dateResponded": "2011-09-02T16:51:57Z",
+    "resolveMinutes": 4585,
+    "resPlanMinutes": 22,
+    "respondMinutes": 0,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "NoDefault",
+    "billExpenses": "NoDefault",
+    "billProducts": "NoDefault",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 1,
+      "identifier": "Support Svc",
+      "name": "Support Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/1"
+      }
+    },
+    "mobileGuid": "00ad7ed8-7e17-4270-9a33-91e4a66581c9",
+    "sla": {
+      "id": 2,
+      "name": "Standard SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/2"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-11-04T17:31:29Z",
+      "updatedBy": "CAuger",
+      "dateEntered": "2011-09-02T16:29:08Z",
+      "enteredBy": "DODell",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=50018",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=50018",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=50018",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50018/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50018/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50018/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=50018",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50018",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50018"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 50019,
+    "summary": "Training",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 25,
+      "name": "TRN-FJ",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/25"
+      }
+    },
+    "status": {
+      "id": 470,
+      "name": ">Resolved",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/25/statuses/470"
+      }
+    },
+    "company": {
+      "id": 20231,
+      "identifier": "NPSCoV1J6N2",
+      "name": "North Peace Savings and Credit Union",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/20231",
+        "mobileGuid": "21ce77ee-a638-4d73-8348-7d22833d8d9a"
+      }
+    },
+    "site": {
+      "id": 1939,
+      "name": "Fort St. John Branch",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/20231/sites/1939",
+        "mobileGuid": "3c5a0c67-9f2c-4db4-bc68-0ced93a40c74"
+      }
+    },
+    "siteName": "Fort St. John Branch",
+    "addressLine1": "10344 -100th Street",
+    "city": "Fort St. John",
+    "stateIdentifier": "BC",
+    "zip": "V1J 3Z1",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contactName": "Tamera Thomas",
+    "contactPhoneNumber": "250-794-3746",
+    "contactEmailAddress": "dummy@dummy.com",
+    "team": {
+      "id": 6,
+      "name": "Training Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/25/teams/6"
+      }
+    },
+    "priority": {
+      "id": 8,
+      "name": "Priority 3 - Medium",
+      "sort": 12,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8/image?lm=2017-02-14T18:56:10Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 2,
+      "name": "In-house",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/2"
+      }
+    },
+    "source": {
+      "id": 4,
+      "name": "Email Connector",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/4"
+      }
+    },
+    "requiredDate": "2011-10-11T00:00:00Z",
+    "budgetHours": 8.0,
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": false,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-09-02T18:34:19Z",
+    "closedBy": "PMaloney",
+    "closedFlag": true,
+    "actualHours": 8.0,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "OverrideRate",
+    "hourlyRate": 108.33,
+    "subBillingMethod": "ActualRates",
+    "dateResolved": "2011-09-02T18:34:19Z",
+    "dateResplan": "2011-09-02T18:34:19Z",
+    "dateResponded": "2011-09-02T16:39:01Z",
+    "resolveMinutes": 115,
+    "resPlanMinutes": 0,
+    "respondMinutes": 6,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "NoDefault",
+    "billExpenses": "NoDefault",
+    "billProducts": "Billable",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 9,
+      "identifier": "Training Svc",
+      "name": "Training Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/9"
+      }
+    },
+    "mobileGuid": "ce1f082f-6c6a-4b3c-8639-9f851d4141fe",
+    "sla": {
+      "id": 5,
+      "name": "No  SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/5"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-09-02T18:34:19Z",
+      "updatedBy": "PMaloney",
+      "dateEntered": "2011-09-02T16:33:31Z",
+      "enteredBy": "PMaloney",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=50019",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=50019",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=50019",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50019/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50019/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50019/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=50019",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50019",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50019"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 50020,
+    "summary": "Misty has an Email problem",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 1,
+      "name": "Z_Support - Fort St John",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1"
+      }
+    },
+    "status": {
+      "id": 17,
+      "name": ">Resolved with Survey",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/statuses/17"
+      }
+    },
+    "company": {
+      "id": 20344,
+      "identifier": "NVSLoV1J6H2",
+      "name": "Northern Valve Services Ltd.",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/20344",
+        "mobileGuid": "c8e0ac3a-db66-46af-9fd0-669b1f2b2666"
+      }
+    },
+    "site": {
+      "id": 2052,
+      "name": "Main Office",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/20344/sites/2052",
+        "mobileGuid": "e19d6fce-7437-4b65-8a21-2b5d7569fd66"
+      }
+    },
+    "siteName": "Main Office",
+    "addressLine1": "8712 - 101 Street",
+    "city": "Fort St. John",
+    "stateIdentifier": "BC",
+    "zip": "V1J 6H2",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contact": {
+      "id": 1042,
+      "name": "Jaret Thompson",
+      "_info": {
+        "mobileGuid": "a9e60d1e-b5b6-4bb3-8a61-1ed883d5eafc",
+        "contact_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/contacts/1042"
+      }
+    },
+    "contactName": "Jaret Thompson",
+    "contactPhoneNumber": "250-785-1900",
+    "contactEmailAddress": "dummy@dummy.com",
+    "team": {
+      "id": 1,
+      "name": "Support Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/teams/1"
+      }
+    },
+    "priority": {
+      "id": 8,
+      "name": "Priority 3 - Medium",
+      "sort": 12,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8/image?lm=2017-02-14T18:56:10Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 4,
+      "name": "Remote",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/4"
+      }
+    },
+    "source": {
+      "id": 4,
+      "name": "Email Connector",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/4"
+      }
+    },
+    "agreement": {
+      "id": 45,
+      "name": "MSP - SLA (Silver)",
+      "_info": {
+        "agreement_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/agreements/45"
+      }
+    },
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": false,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-09-13T02:32:37Z",
+    "closedBy": "GVoormeulen",
+    "closedFlag": true,
+    "actualHours": 2.0,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "ActualRates",
+    "subBillingMethod": "ActualRates",
+    "dateResolved": "2011-09-12T20:23:50Z",
+    "dateResplan": "2011-09-02T17:11:23Z",
+    "dateResponded": "2011-09-02T16:51:36Z",
+    "resolveMinutes": 4529,
+    "resPlanMinutes": 20,
+    "respondMinutes": 3,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "NoDefault",
+    "billExpenses": "NoDefault",
+    "billProducts": "NoDefault",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 1,
+      "identifier": "Support Svc",
+      "name": "Support Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/1"
+      }
+    },
+    "mobileGuid": "2afd5fee-11ca-4099-a88b-abc94e6caf06",
+    "sla": {
+      "id": 2,
+      "name": "Standard SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/2"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-09-13T02:32:36Z",
+      "updatedBy": "GVoormeulen",
+      "dateEntered": "2011-09-02T16:48:12Z",
+      "enteredBy": "LEdwards",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=50020",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=50020",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=50020",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50020/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50020/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50020/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=50020",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50020",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50020"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 50021,
+    "summary": "Install RAM in Trish's PC",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 1,
+      "name": "Z_Support - Fort St John",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1"
+      }
+    },
+    "status": {
+      "id": 17,
+      "name": ">Resolved with Survey",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/statuses/17"
+      }
+    },
+    "company": {
+      "id": 19481,
+      "identifier": "ENSIoV1J4J1",
+      "name": "Energetic Services Inc.",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19481",
+        "mobileGuid": "888b074f-0b81-4fc3-873d-f10ceeefebe4"
+      }
+    },
+    "site": {
+      "id": 2609,
+      "name": "Main Office - Physical",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19481/sites/2609",
+        "mobileGuid": "3ae670d5-d620-4a81-a8b8-5390d7bd284f"
+      }
+    },
+    "siteName": "Main Office - Physical",
+    "addressLine1": "Mile 54",
+    "city": "Fort St. John",
+    "stateIdentifier": "BC",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contact": {
+      "id": 214,
+      "name": "Olga Gregoire",
+      "_info": {
+        "mobileGuid": "90122499-e1b8-4f15-b8f3-2bc75825689a",
+        "contact_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/contacts/214"
+      }
+    },
+    "contactName": "Tina Carter",
+    "contactPhoneNumber": "250-785-4761",
+    "contactEmailAddress": "dummy@dummy.com",
+    "team": {
+      "id": 1,
+      "name": "Support Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/teams/1"
+      }
+    },
+    "priority": {
+      "id": 8,
+      "name": "Priority 3 - Medium",
+      "sort": 12,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8/image?lm=2017-02-14T18:56:10Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 4,
+      "name": "Remote",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/4"
+      }
+    },
+    "source": {
+      "id": 4,
+      "name": "Email Connector",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/4"
+      }
+    },
+    "agreement": {
+      "id": 67,
+      "name": "Monthly SLA Flat Fee Agreement",
+      "_info": {
+        "agreement_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/agreements/67"
+      }
+    },
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": false,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-09-06T22:24:27Z",
+    "closedBy": "CGoddu",
+    "closedFlag": true,
+    "actualHours": 2.75,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "ActualRates",
+    "subBillingMethod": "ActualRates",
+    "dateResolved": "2011-09-02T21:05:32Z",
+    "dateResplan": "2011-09-02T21:05:32Z",
+    "dateResponded": "2011-09-02T17:04:29Z",
+    "resolveMinutes": 241,
+    "resPlanMinutes": 0,
+    "respondMinutes": 0,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "Billable",
+    "billExpenses": "Billable",
+    "billProducts": "Billable",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 1,
+      "identifier": "Support Svc",
+      "name": "Support Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/1"
+      }
+    },
+    "mobileGuid": "b742a6f1-9342-4ce7-b006-6c6c151400ff",
+    "sla": {
+      "id": 2,
+      "name": "Standard SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/2"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-09-13T00:17:37Z",
+      "updatedBy": "DGarland",
+      "dateEntered": "2011-09-02T17:04:27Z",
+      "enteredBy": "CAuger",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=50021",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=50021",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=50021",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50021/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50021/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50021/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=50021",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50021",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50021"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 50022,
+    "summary": "AccPac is extremely slow - SBS server reboot",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 1,
+      "name": "Z_Support - Fort St John",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1"
+      }
+    },
+    "status": {
+      "id": 17,
+      "name": ">Resolved with Survey",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/statuses/17"
+      }
+    },
+    "company": {
+      "id": 19481,
+      "identifier": "ENSIoV1J4J1",
+      "name": "Energetic Services Inc.",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19481",
+        "mobileGuid": "888b074f-0b81-4fc3-873d-f10ceeefebe4"
+      }
+    },
+    "site": {
+      "id": 2609,
+      "name": "Main Office - Physical",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19481/sites/2609",
+        "mobileGuid": "3ae670d5-d620-4a81-a8b8-5390d7bd284f"
+      }
+    },
+    "siteName": "Main Office - Physical",
+    "addressLine1": "Mile 54",
+    "city": "Fort St. John",
+    "stateIdentifier": "BC",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contact": {
+      "id": 214,
+      "name": "Olga Gregoire",
+      "_info": {
+        "mobileGuid": "90122499-e1b8-4f15-b8f3-2bc75825689a",
+        "contact_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/contacts/214"
+      }
+    },
+    "contactName": "Tina Carter",
+    "contactPhoneNumber": "250-785-4761",
+    "contactEmailAddress": "dummy@dummy.com",
+    "type": {
+      "id": 30,
+      "name": "Server",
+      "_info": {
+        "type_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/types/30"
+      }
+    },
+    "team": {
+      "id": 1,
+      "name": "Support Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/teams/1"
+      }
+    },
+    "priority": {
+      "id": 8,
+      "name": "Priority 3 - Medium",
+      "sort": 12,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8/image?lm=2017-02-14T18:56:10Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 4,
+      "name": "Remote",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/4"
+      }
+    },
+    "source": {
+      "id": 4,
+      "name": "Email Connector",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/4"
+      }
+    },
+    "requiredDate": "2011-09-02T00:00:00Z",
+    "agreement": {
+      "id": 67,
+      "name": "Monthly SLA Flat Fee Agreement",
+      "_info": {
+        "agreement_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/agreements/67"
+      }
+    },
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": false,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-09-05T22:39:25Z",
+    "closedBy": "GVoormeulen",
+    "closedFlag": true,
+    "actualHours": 0.5,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "ActualRates",
+    "subBillingMethod": "ActualRates",
+    "dateResolved": "2011-09-02T18:22:56Z",
+    "dateResplan": "2011-09-02T18:22:56Z",
+    "dateResponded": "2011-09-02T17:09:21Z",
+    "resolveMinutes": 73,
+    "resPlanMinutes": 0,
+    "respondMinutes": 0,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "Billable",
+    "billExpenses": "Billable",
+    "billProducts": "Billable",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 1,
+      "identifier": "Support Svc",
+      "name": "Support Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/1"
+      }
+    },
+    "mobileGuid": "717603d2-1d25-48d3-bacb-c93d502bea8c",
+    "sla": {
+      "id": 2,
+      "name": "Standard SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/2"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-09-05T22:39:25Z",
+      "updatedBy": "GVoormeulen",
+      "dateEntered": "2011-09-02T17:09:21Z",
+      "enteredBy": "LForman",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=50022",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=50022",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=50022",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50022/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50022/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50022/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=50022",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50022",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50022"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 50023,
+    "summary": "Password on Iphones",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 1,
+      "name": "Z_Support - Fort St John",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1"
+      }
+    },
+    "status": {
+      "id": 17,
+      "name": ">Resolved with Survey",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/statuses/17"
+      }
+    },
+    "company": {
+      "id": 20014,
+      "identifier": "SUREoV1J6G9",
+      "name": "Surerus Construction & Development Ltd.",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/20014",
+        "mobileGuid": "d4265784-f2b2-4e91-a7f8-0bcae8b04ec9"
+      }
+    },
+    "site": {
+      "id": 1722,
+      "name": "Main Office",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/20014/sites/1722",
+        "mobileGuid": "ed50edb7-048e-4eba-8d54-446b0b4f1519"
+      }
+    },
+    "siteName": "Main Office",
+    "addressLine1": "9312-109 St.",
+    "city": "Fort St. John",
+    "stateIdentifier": "BC",
+    "zip": "V1J 6G9",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contact": {
+      "id": 725,
+      "name": "Rob Neufeld",
+      "_info": {
+        "mobileGuid": "81d26476-e465-4c56-84c8-ec8d566926fe",
+        "contact_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/contacts/725"
+      }
+    },
+    "contactName": "Sherill Anderson",
+    "contactPhoneNumber": "250-785-2423",
+    "contactEmailAddress": "dummy@dummy.com",
+    "team": {
+      "id": 1,
+      "name": "Support Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/teams/1"
+      }
+    },
+    "priority": {
+      "id": 8,
+      "name": "Priority 3 - Medium",
+      "sort": 12,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8/image?lm=2017-02-14T18:56:10Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 4,
+      "name": "Remote",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/4"
+      }
+    },
+    "source": {
+      "id": 4,
+      "name": "Email Connector",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/4"
+      }
+    },
+    "agreement": {
+      "id": 42,
+      "name": "MSP - SLA (Silver)",
+      "_info": {
+        "agreement_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/agreements/42"
+      }
+    },
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": false,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-09-13T02:33:59Z",
+    "closedBy": "GVoormeulen",
+    "closedFlag": true,
+    "actualHours": 1.0,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "ActualRates",
+    "subBillingMethod": "ActualRates",
+    "dateResolved": "2011-09-02T20:33:10Z",
+    "dateResplan": "2011-09-02T20:30:04Z",
+    "dateResponded": "2011-09-02T18:48:39Z",
+    "resolveMinutes": 3,
+    "resPlanMinutes": 102,
+    "respondMinutes": 0,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "NoDefault",
+    "billExpenses": "NoDefault",
+    "billProducts": "NoDefault",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 1,
+      "identifier": "Support Svc",
+      "name": "Support Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/1"
+      }
+    },
+    "mobileGuid": "2762073e-5863-42a3-8f06-be7c7b561fc0",
+    "sla": {
+      "id": 2,
+      "name": "Standard SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/2"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-09-13T02:33:59Z",
+      "updatedBy": "GVoormeulen",
+      "dateEntered": "2011-09-02T18:48:38Z",
+      "enteredBy": "CAuger",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=50023",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=50023",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=50023",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50023/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50023/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50023/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=50023",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50023",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50023"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 50024,
+    "summary": "Power Outage",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 1,
+      "name": "Z_Support - Fort St John",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1"
+      }
+    },
+    "status": {
+      "id": 17,
+      "name": ">Resolved with Survey",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/statuses/17"
+      }
+    },
+    "company": {
+      "id": 20380,
+      "identifier": "HARDoV0C1R0",
+      "name": "Hardcastle Developments Ltd.",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/20380",
+        "mobileGuid": "1b43c141-b28b-40ae-b587-301840be9747"
+      }
+    },
+    "site": {
+      "id": 2088,
+      "name": "Main Office",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/20380/sites/2088",
+        "mobileGuid": "739002f7-fdd5-4599-bd9f-5b49ec537c41"
+      }
+    },
+    "siteName": "Main Office",
+    "addressLine1": "Box 857",
+    "city": "Fort Nelson",
+    "stateIdentifier": "BC",
+    "zip": "V0C 1R0",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contact": {
+      "id": 1074,
+      "name": "Elaine Trerice",
+      "_info": {
+        "mobileGuid": "7be32398-11b9-4cf6-99f0-29e618ee81a6",
+        "contact_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/contacts/1074"
+      }
+    },
+    "contactName": "Elaine Trerice",
+    "contactPhoneNumber": "250-774-6700",
+    "contactEmailAddress": "dummy@dummy.com",
+    "team": {
+      "id": 1,
+      "name": "Support Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/teams/1"
+      }
+    },
+    "priority": {
+      "id": 8,
+      "name": "Priority 3 - Medium",
+      "sort": 12,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8/image?lm=2017-02-14T18:56:10Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 4,
+      "name": "Remote",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/4"
+      }
+    },
+    "source": {
+      "id": 4,
+      "name": "Email Connector",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/4"
+      }
+    },
+    "agreement": {
+      "id": 81,
+      "name": "Monthly Service Level Agreement",
+      "_info": {
+        "agreement_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/agreements/81"
+      }
+    },
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": false,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-10-31T20:42:53Z",
+    "closedBy": "CAuger",
+    "closedFlag": true,
+    "actualHours": 0.25,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "ActualRates",
+    "subBillingMethod": "ActualRates",
+    "dateResolved": "2011-10-28T16:50:53Z",
+    "dateResplan": "2011-09-04T23:45:49Z",
+    "dateResponded": "2011-09-02T19:17:05Z",
+    "resolveMinutes": 7005,
+    "resPlanMinutes": 0,
+    "respondMinutes": 0,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "NoDefault",
+    "billExpenses": "NoDefault",
+    "billProducts": "NoDefault",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 1,
+      "identifier": "Support Svc",
+      "name": "Support Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/1"
+      }
+    },
+    "mobileGuid": "4b9426b3-8efe-4d8f-ae70-e62535b0a9af",
+    "sla": {
+      "id": 2,
+      "name": "Standard SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/2"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-11-14T17:12:11Z",
+      "updatedBy": "LEdwards",
+      "dateEntered": "2011-09-02T19:17:04Z",
+      "enteredBy": "CAuger",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=50024",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=50024",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=50024",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50024/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50024/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50024/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=50024",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50024",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50024"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 50025,
+    "summary": "WSUS Issue's",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 1,
+      "name": "Z_Support - Fort St John",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1"
+      }
+    },
+    "status": {
+      "id": 17,
+      "name": ">Resolved with Survey",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/statuses/17"
+      }
+    },
+    "company": {
+      "id": 19481,
+      "identifier": "ENSIoV1J4J1",
+      "name": "Energetic Services Inc.",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19481",
+        "mobileGuid": "888b074f-0b81-4fc3-873d-f10ceeefebe4"
+      }
+    },
+    "site": {
+      "id": 2609,
+      "name": "Main Office - Physical",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/19481/sites/2609",
+        "mobileGuid": "3ae670d5-d620-4a81-a8b8-5390d7bd284f"
+      }
+    },
+    "siteName": "Main Office - Physical",
+    "addressLine1": "Mile 54",
+    "city": "Fort St. John",
+    "stateIdentifier": "BC",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contact": {
+      "id": 214,
+      "name": "Olga Gregoire",
+      "_info": {
+        "mobileGuid": "90122499-e1b8-4f15-b8f3-2bc75825689a",
+        "contact_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/contacts/214"
+      }
+    },
+    "contactName": "Tina Carter",
+    "contactPhoneNumber": "250-785-4761",
+    "contactEmailAddress": "dummy@dummy.com",
+    "team": {
+      "id": 1,
+      "name": "Support Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/teams/1"
+      }
+    },
+    "priority": {
+      "id": 8,
+      "name": "Priority 3 - Medium",
+      "sort": 12,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8/image?lm=2017-02-14T18:56:10Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 4,
+      "name": "Remote",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/4"
+      }
+    },
+    "source": {
+      "id": 4,
+      "name": "Email Connector",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/4"
+      }
+    },
+    "agreement": {
+      "id": 67,
+      "name": "Monthly SLA Flat Fee Agreement",
+      "_info": {
+        "agreement_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/agreements/67"
+      }
+    },
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": false,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-09-20T19:14:34Z",
+    "closedBy": "CAuger",
+    "closedFlag": true,
+    "actualHours": 0.75,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "ActualRates",
+    "subBillingMethod": "ActualRates",
+    "dateResolved": "2011-09-20T19:14:34Z",
+    "dateResplan": "2011-09-02T22:49:02Z",
+    "dateResponded": "2011-09-02T19:52:28Z",
+    "resolveMinutes": 25819,
+    "resPlanMinutes": 0,
+    "respondMinutes": 0,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "Billable",
+    "billExpenses": "Billable",
+    "billProducts": "Billable",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 1,
+      "identifier": "Support Svc",
+      "name": "Support Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/1"
+      }
+    },
+    "mobileGuid": "23e890da-1cfc-4f4c-bcc9-d50afc8ce94e",
+    "sla": {
+      "id": 2,
+      "name": "Standard SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/2"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-09-20T19:14:34Z",
+      "updatedBy": "CAuger",
+      "dateEntered": "2011-09-02T19:52:27Z",
+      "enteredBy": "CAuger",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=50025",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=50025",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=50025",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50025/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50025/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50025/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=50025",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50025",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50025"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  },
+  {
+    "id": 50026,
+    "summary": "Heather's PC has the BSOD",
+    "recordType": "ServiceTicket",
+    "board": {
+      "id": 1,
+      "name": "Z_Support - Fort St John",
+      "_info": {
+        "board_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1"
+      }
+    },
+    "status": {
+      "id": 17,
+      "name": ">Resolved with Survey",
+      "_info": {
+        "status_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/statuses/17"
+      }
+    },
+    "company": {
+      "id": 20404,
+      "identifier": "CCTCoV1J1W6",
+      "name": "CCT Compressor Control Technologies",
+      "_info": {
+        "company_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/20404",
+        "mobileGuid": "aa6b6a26-baa4-4503-9f67-4da35e525198"
+      }
+    },
+    "site": {
+      "id": 2112,
+      "name": "z_INACTIVE - Main Office",
+      "_info": {
+        "site_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/companies/20404/sites/2112",
+        "mobileGuid": "bf48687d-8e01-40cd-90a6-6bd0b276114d"
+      }
+    },
+    "siteName": "Main Office",
+    "addressLine1": "8232 100 Ave.",
+    "city": "Fort St John",
+    "stateIdentifier": "BC",
+    "zip": "V1J 1W6",
+    "country": {
+      "id": 2,
+      "identifier": "CA",
+      "name": "Canada",
+      "_info": {
+        "country_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/countries/2"
+      }
+    },
+    "contact": {
+      "id": 1098,
+      "name": "Blaine Kitzul",
+      "_info": {
+        "mobileGuid": "017d0e74-fc35-49e4-8e23-02e465acda2b",
+        "contact_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/company/contacts/1098"
+      }
+    },
+    "contactName": "Blaine Kitzul",
+    "contactPhoneNumber": "250-787-0565",
+    "contactEmailAddress": "dummy@dummy.com",
+    "team": {
+      "id": 1,
+      "name": "Support Team",
+      "_info": {
+        "team_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/boards/1/teams/1"
+      }
+    },
+    "priority": {
+      "id": 8,
+      "name": "Priority 3 - Medium",
+      "sort": 12,
+      "_info": {
+        "priority_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8",
+        "image_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/priorities/8/image?lm=2017-02-14T18:56:10Z"
+      }
+    },
+    "serviceLocation": {
+      "id": 4,
+      "name": "Remote",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/locations/4"
+      }
+    },
+    "source": {
+      "id": 4,
+      "name": "Email Connector",
+      "_info": {
+        "source_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/sources/4"
+      }
+    },
+    "severity": "Medium",
+    "impact": "Medium",
+    "allowAllClientsPortalView": false,
+    "customerUpdatedFlag": false,
+    "automaticEmailContactFlag": false,
+    "automaticEmailResourceFlag": false,
+    "automaticEmailCcFlag": false,
+    "closedDate": "2011-09-05T22:46:40Z",
+    "closedBy": "GVoormeulen",
+    "closedFlag": true,
+    "actualHours": 1.25,
+    "approved": true,
+    "estimatedExpenseCost": 0.0,
+    "estimatedExpenseRevenue": 0.0,
+    "estimatedProductCost": 0.0,
+    "estimatedProductRevenue": 0.0,
+    "estimatedTimeCost": 0.0,
+    "estimatedTimeRevenue": 0.0,
+    "billingMethod": "ActualRates",
+    "subBillingMethod": "ActualRates",
+    "dateResolved": "2011-09-05T03:51:45Z",
+    "dateResplan": "2011-09-02T19:55:00Z",
+    "dateResponded": "2011-09-02T19:55:00Z",
+    "resolveMinutes": 185,
+    "resPlanMinutes": 0,
+    "respondMinutes": 0,
+    "isInSla": true,
+    "hasChildTicket": false,
+    "hasMergedChildTicketFlag": false,
+    "billTime": "NoDefault",
+    "billExpenses": "NoDefault",
+    "billProducts": "Billable",
+    "location": {
+      "id": 11,
+      "name": "Fort St. John",
+      "_info": {
+        "location_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/locations/11"
+      }
+    },
+    "department": {
+      "id": 1,
+      "identifier": "Support Svc",
+      "name": "Support Services",
+      "_info": {
+        "department_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/departments/1"
+      }
+    },
+    "mobileGuid": "7d1133bb-c1ae-48ca-8b01-2e0214070a26",
+    "sla": {
+      "id": 5,
+      "name": "No  SLA",
+      "_info": {
+        "sla_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/SLAs/5"
+      }
+    },
+    "currency": {
+      "id": 1,
+      "symbol": "$",
+      "currencyCode": "CAD",
+      "decimalSeparator": ".",
+      "numberOfDecimals": 2,
+      "thousandsSeparator": ",",
+      "negativeParenthesesFlag": false,
+      "displaySymbolFlag": true,
+      "currencyIdentifier": "CDN",
+      "displayIdFlag": false,
+      "rightAlign": false,
+      "name": "Canadian Dollars",
+      "_info": {
+        "currency_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/finance/currencies/1"
+      }
+    },
+    "_info": {
+      "lastUpdated": "2011-09-05T22:46:40Z",
+      "updatedBy": "GVoormeulen",
+      "dateEntered": "2011-09-02T19:54:59Z",
+      "enteredBy": "CAuger",
+      "activities_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/sales/activities?conditions=ticket/id=50026",
+      "scheduleentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/schedule/entries?conditions=type/id=4 AND objectId=50026",
+      "documents_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/system/documents?recordType=Ticket&recordId=50026",
+      "configurations_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50026/configurations",
+      "tasks_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50026/tasks",
+      "notes_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/service/tickets/50026/notes",
+      "products_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/procurement/products?conditions=chargeToType='Ticket' AND chargeToId=50026",
+      "timeentries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/time/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50026",
+      "expenseEntries_href": "https://cwtest.eswit.com/v4_6_release/apis/3.0/expense/entries?conditions=(chargeToType='ServiceTicket' OR chargeToType='ProjectTicket') AND chargeToId=50026"
+    },
+    "customFields": [
+      {
+        "id": 2,
+        "caption": "Business Hrs",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      },
+      {
+        "id": 17,
+        "caption": "Ref Customer",
+        "type": "Text",
+        "entryMethod": "EntryField",
+        "numberOfDecimals": 0
+      }
+    ]
+  }
+]
