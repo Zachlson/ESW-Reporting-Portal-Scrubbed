@@ -17,9 +17,6 @@ const DashboardModal = ({
   generalAgreementData,
   setIsLoading,
 }) => {
-  const ticketStore = new TicketStore();
-  const configStore = new ConfigStore();
-  const agreementStore = new AgreementStore();
   // states
   const [currentSort, setCurrentSort] = useState("");
   const [modalData, setModalData] = useState([]);
@@ -56,6 +53,9 @@ const DashboardModal = ({
 
   useEffect(() => {
     let type = "";
+    const ticketStore = new TicketStore();
+    const configStore = new ConfigStore();
+    const agreementStore = new AgreementStore();
     switch (data.menu) {
       default:
       case "Ticket":
@@ -157,14 +157,11 @@ const DashboardModal = ({
   }, [
     modalOpen,
     data.menu,
-    agreementStore,
-    configStore,
     data.companyName,
     data.id,
     generalAgreementData,
     generalConfigData,
     generalTicketData,
-    ticketStore,
   ]);
 
   if (modalLoading) {
