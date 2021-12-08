@@ -15,130 +15,159 @@ const DashboardModal = ({
   generalTicketData,
   generalConfigData,
   generalAgreementData,
-  setIsLoading
+  setIsLoading,
 }) => {
   const ticketStore = new TicketStore();
   const configStore = new ConfigStore();
-  const agreementStore = new AgreementStore()
+  const agreementStore = new AgreementStore();
   // states
-  const [currentSort, setCurrentSort] = useState("")
+  const [currentSort, setCurrentSort] = useState("");
   const [modalData, setModalData] = useState([]);
-  const [modalLoading, setModalLoading] = useState(true)
-  const [modalHeader, setModalHeader] = useState("")
-  const [sortedDataArray, setSortedDataArray] = useState([])
+  const [modalLoading, setModalLoading] = useState(true);
+  const [modalHeader, setModalHeader] = useState("");
+  const [sortedDataArray, setSortedDataArray] = useState([]);
   // function to close modal
   const handleCloseButton = () => {
     setModalOpen(false);
   };
 
   const handleSortByFunction = (e) => {
-    let sortedArray = modalData
+    let sortedArray = modalData;
     if (e.target.value === "earliest") {
-      sortedArray = modalData.sort((a, b) => Date.parse(a.dateEntered) - Date.parse(b.dateEntered))
-      setSortedDataArray(sortedArray)
-      setCurrentSort("earliest")
+      sortedArray = modalData.sort(
+        (a, b) => Date.parse(a.dateEntered) - Date.parse(b.dateEntered)
+      );
+      setSortedDataArray(sortedArray);
+      setCurrentSort("earliest");
+    } else if (e.target.value === "latest") {
+      sortedArray = modalData.sort(
+        (a, b) => Date.parse(b.dateEntered) - Date.parse(a.dateEntered)
+      );
+      setSortedDataArray(sortedArray);
+      setCurrentSort("latest");
     }
-    else if (e.target.value === "latest") {
-      sortedArray = modalData.sort((a, b) => Date.parse(b.dateEntered) - Date.parse(a.dateEntered))
-      setSortedDataArray(sortedArray)
-      setCurrentSort("latest")
-    }
-    return sortedArray
-  }
-  
-  useEffect(() => {
-    setModalData(sortedDataArray)
-    return () => {}
-  }, [sortedDataArray])
+    return sortedArray;
+  };
 
   useEffect(() => {
-    let type = ""
+    setModalData(sortedDataArray);
+    return () => {};
+  }, [sortedDataArray]);
+
+  useEffect(() => {
+    let type = "";
     switch (data.menu) {
       case "Ticket":
-        const companyTickets = ticketStore.getTicketsByCompanyId(data.id, generalTicketData)
+        const companyTickets = ticketStore.getTicketsByCompanyId(
+          data.id,
+          generalTicketData
+        );
         setModalData(companyTickets.tickets);
-        type=" Tickets"
+        type = " Tickets";
         break;
       case "Config":
-        const companyConfigs = configStore.getConfigsByCompanyId(data.id, generalConfigData)
-        setModalData(companyConfigs.configs)
-        type=" Configs"
+        const companyConfigs = configStore.getConfigsByCompanyId(
+          data.id,
+          generalConfigData
+        );
+        setModalData(companyConfigs.configs);
+        type = " Configs";
         break;
       case "Agreement":
-        const companyAgreements = agreementStore.getAgreementsByCompanyId(data.id, generalAgreementData)
-        setModalData(companyAgreements.agreements)
-        type=" Agreements"
+        const companyAgreements = agreementStore.getAgreementsByCompanyId(
+          data.id,
+          generalAgreementData
+        );
+        setModalData(companyAgreements.agreements);
+        type = " Agreements";
         break;
-      case "Ticket_Open" :
-        const openTickets = ticketStore.getOpenTickets(generalTicketData)
-        setModalData(openTickets)
-        type=" Open Tickets"
+      case "Ticket_Open":
+        const openTickets = ticketStore.getOpenTickets(generalTicketData);
+        setModalData(openTickets);
+        type = " Open Tickets";
         break;
       case "Ticket_Closed":
-        const closedTickets = ticketStore.getClosedTickets(generalTicketData)
-        setModalData(closedTickets)
-        type=" Closed Tickets"
+        const closedTickets = ticketStore.getClosedTickets(generalTicketData);
+        setModalData(closedTickets);
+        type = " Closed Tickets";
         break;
-      case "Ticket_Recent" :
-        const recentTickets = ticketStore.getRecentTickets(generalTicketData)
-        setModalData(recentTickets)
-        type=" Recent Tickets"
+      case "Ticket_Recent":
+        const recentTickets = ticketStore.getRecentTickets(generalTicketData);
+        setModalData(recentTickets);
+        type = " Recent Tickets";
         break;
-      case "Ticket_Aging" :
-        const agingTickets = ticketStore.getAgingTickets(generalTicketData)
-        setModalData(agingTickets)
-        type=" Aging Tickets"
+      case "Ticket_Aging":
+        const agingTickets = ticketStore.getAgingTickets(generalTicketData);
+        setModalData(agingTickets);
+        type = " Aging Tickets";
         break;
-      case "Config_Active" :
-        const activeConfigs = configStore.getActiveConfigs(generalConfigData)
-        setModalData(activeConfigs)
-        type=" Active Configs"
+      case "Config_Active":
+        const activeConfigs = configStore.getActiveConfigs(generalConfigData);
+        setModalData(activeConfigs);
+        type = " Active Configs";
         break;
-      case "Config_Quarter_Expiring" :
-        const quarterExpiringConfigs = configStore.getQuarterExpiringConfigs(generalConfigData)
-        setModalData(quarterExpiringConfigs)
-        type=" Quarter Expiring Configs"
+      case "Config_Quarter_Expiring":
+        const quarterExpiringConfigs =
+          configStore.getQuarterExpiringConfigs(generalConfigData);
+        setModalData(quarterExpiringConfigs);
+        type = " Quarter Expiring Configs";
         break;
-      case "Config_Yearly_Expiring" :
-        const yearlyExpiringConfigs = configStore.getYearlyExpiringConfigs(generalConfigData)
-        setModalData(yearlyExpiringConfigs)
-        type=" Yearly Expiring Configs"
+      case "Config_Yearly_Expiring":
+        const yearlyExpiringConfigs =
+          configStore.getYearlyExpiringConfigs(generalConfigData);
+        setModalData(yearlyExpiringConfigs);
+        type = " Yearly Expiring Configs";
         break;
-      case "Config_Expired" :
-        const expiredConfigs = configStore.getExpiredConfigs(generalConfigData)
-        setModalData(expiredConfigs)
-        type=" Expired Configs"
+      case "Config_Expired":
+        const expiredConfigs = configStore.getExpiredConfigs(generalConfigData);
+        setModalData(expiredConfigs);
+        type = " Expired Configs";
         break;
-      case "Agreement_Active" :
-        const activeAgreements = agreementStore.getActiveAgreements(generalAgreementData)
-        setModalData(activeAgreements)
-        type=" Active Agreements"
+      case "Agreement_Active":
+        const activeAgreements =
+          agreementStore.getActiveAgreements(generalAgreementData);
+        setModalData(activeAgreements);
+        type = " Active Agreements";
         break;
       case "Agreement_Additions":
-        const additionsAgreements = agreementStore.getAdditionsAgreements(generalAgreementData)
-        setModalData(additionsAgreements)
-        type=" Agreement Additions"
+        const additionsAgreements =
+          agreementStore.getAdditionsAgreements(generalAgreementData);
+        setModalData(additionsAgreements);
+        type = " Agreement Additions";
         break;
-      case "Agreement_Expiring_This_Year" :
-        const yearExpiringAgreements = agreementStore.getYearlyExpiringConfigs(generalAgreementData)
-        setModalData(yearExpiringAgreements)
-        type=" Agreements Expiring This Year"
+      case "Agreement_Expiring_This_Year":
+        const yearExpiringAgreements =
+          agreementStore.getYearlyExpiringConfigs(generalAgreementData);
+        setModalData(yearExpiringAgreements);
+        type = " Agreements Expiring This Year";
         break;
       case "Agreement_Monthly_Revenue":
-        const revenueAgreements = agreementStore.getRevenueAgreements(generalAgreementData)
-        setModalData(revenueAgreements)
-        type=" Agreements Expiring This Month"
+        const revenueAgreements =
+          agreementStore.getRevenueAgreements(generalAgreementData);
+        setModalData(revenueAgreements);
+        type = " Agreements Expiring This Month";
         break;
     }
-    setModalHeader((data.companyName === undefined ? "All" : data.companyName) + type)
-    setModalLoading(false)
+    setModalHeader(
+      (data.companyName === undefined ? "All" : data.companyName) + type
+    );
+    setModalLoading(false);
     return () => {};
-  }, [modalOpen, data.menu]);
+  }, [
+    modalOpen,
+    data.menu,
+    agreementStore,
+    configStore,
+    data.companyName,
+    data.id,
+    generalAgreementData,
+    generalConfigData,
+    generalTicketData,
+    ticketStore,
+  ]);
 
-  if(modalLoading) {
-    return (
-      <Loading />
-    )
+  if (modalLoading) {
+    return <Loading />;
   } else {
     if (modalData === undefined) {
       return (
@@ -148,42 +177,46 @@ const DashboardModal = ({
             x
           </button>
         </StyledModalBox>
-      )
+      );
     } else {
       return (
-          <StyledModalBox modalOpen={modalOpen}>
-            <StyledModalContent>
-              <button onClick={handleCloseButton} align="right">
-                x
-              </button>
-              <TopSideContainer>
-                <h1>{modalHeader}</h1>
-                {/* <h1>Apple</h1> */}
-                <FiltersContainer>
-                  <DropdownItem>
-                    <label htmlFor="filterSelect">Sort By: </label>
-                    <select name="filterSelect" onChange={(e) => {handleSortByFunction(e)}}>
-                      <option value="">Select</option>
-                      <option value="earliest">Earliest</option>
-                      <option value="latest">Latest</option>
-                    </select>
-                  </DropdownItem>
-                </FiltersContainer>
-              </TopSideContainer>
-              <StyledContentDiv>
-                {modalData.map((modalItem) => (
-                    <FlexItem>
-                      <TicketDetails
-                          key={modalItem.ticketId}
-                          modalItem={modalItem}
-                          menu={data.menu}
-                      />
-                    </FlexItem>
-
-                ))}
-              </StyledContentDiv>
-            </StyledModalContent>
-          </StyledModalBox>
+        <StyledModalBox modalOpen={modalOpen}>
+          <StyledModalContent>
+            <button onClick={handleCloseButton} align="right">
+              x
+            </button>
+            <TopSideContainer>
+              <h1>{modalHeader}</h1>
+              {/* <h1>Apple</h1> */}
+              <FiltersContainer>
+                <DropdownItem>
+                  <label htmlFor="filterSelect">Sort By: </label>
+                  <select
+                    name="filterSelect"
+                    onChange={(e) => {
+                      handleSortByFunction(e);
+                    }}
+                  >
+                    <option value="">Select</option>
+                    <option value="earliest">Earliest</option>
+                    <option value="latest">Latest</option>
+                  </select>
+                </DropdownItem>
+              </FiltersContainer>
+            </TopSideContainer>
+            <StyledContentDiv>
+              {modalData.map((modalItem) => (
+                <FlexItem>
+                  <TicketDetails
+                    key={modalItem.ticketId}
+                    modalItem={modalItem}
+                    menu={data.menu}
+                  />
+                </FlexItem>
+              ))}
+            </StyledContentDiv>
+          </StyledModalContent>
+        </StyledModalBox>
       );
     }
   }
@@ -231,7 +264,6 @@ const StyledModalContent = styled.div`
     position: absolute;
     top: 10px;
     right: 20px;
-    
   }
 `;
 
@@ -257,21 +289,21 @@ const FlexItem = styled.div`
   width: 100%;
   margin-bottom: 30px;
   display: flex;
-  
+
   @media (min-width: 900px) {
     width: 48%;
     margin-right: 2%;
-    &:nth-child(2n+2) {
+    &:nth-child(2n + 2) {
       margin-right: 0;
     }
   }
 
   @media (min-width: 1400px) {
     width: 32%;
-    &:nth-child(2n+2) {
+    &:nth-child(2n + 2) {
       margin-right: 2%;
     }
-    &:nth-child(3n+3) {
+    &:nth-child(3n + 3) {
       margin-right: 0;
     }
   }
