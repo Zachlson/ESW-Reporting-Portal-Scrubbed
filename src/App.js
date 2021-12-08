@@ -23,12 +23,11 @@ function App() {
   const [user, setUser] = useState("");
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  const ticketStore = new TicketStore();
-  const configStore = new ConfigStore();
-  const agreementStore = new AgreementStore();
-  const memberStore = new MemberStore();
-
   useEffect(() => {
+    const ticketStore = new TicketStore();
+    const configStore = new ConfigStore();
+    const agreementStore = new AgreementStore();
+    const memberStore = new MemberStore();
     setIsLoggedIn(
       localStorage.getItem("esw_logged_in_status") === "logged_in"
         ? true
@@ -53,7 +52,7 @@ function App() {
     setGeneralAgreementData(agreementStore.getGeneralAgreementsData());
     setLoading(false);
     return () => {};
-  }, [agreementStore, configStore, memberStore, ticketStore]);
+  }, []);
 
   if (!isLoggedIn) {
     return <Login setIsLoggedIn={setIsLoggedIn} setUser={setUser} />;
