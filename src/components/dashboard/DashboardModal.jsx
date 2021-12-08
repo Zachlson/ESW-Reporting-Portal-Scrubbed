@@ -57,6 +57,7 @@ const DashboardModal = ({
   useEffect(() => {
     let type = "";
     switch (data.menu) {
+      default:
       case "Ticket":
         const companyTickets = ticketStore.getTicketsByCompanyId(
           data.id,

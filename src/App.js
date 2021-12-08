@@ -53,7 +53,7 @@ function App() {
     setGeneralAgreementData(agreementStore.getGeneralAgreementsData());
     setLoading(false);
     return () => {};
-  }, []);
+  }, [agreementStore, configStore, memberStore, ticketStore]);
 
   if (!isLoggedIn) {
     return <Login setIsLoggedIn={setIsLoggedIn} setUser={setUser} />;

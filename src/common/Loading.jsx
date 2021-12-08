@@ -2,14 +2,14 @@ import React from "react";
 import styled from "styled-components";
 import DotLoader from "react-spinners/PulseLoader";
 
-function Loading(isLoading = { isLoading }) {
+function Loading({ isLoading }) {
   return (
     <StyledDiv>
       <h1>
         Loading <DotLoader loading={isLoading} color={"white"} />
       </h1>
 
-      <img src="../../images/ESW-logo.png" />
+      <img src="../../images/ESW-logo.png" alt="Logo" />
     </StyledDiv>
   );
 }

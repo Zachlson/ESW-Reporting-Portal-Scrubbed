@@ -8,32 +8,36 @@ const Header = ({ userName }) => {
   //For navigation
   const history = useHistory();
 
-  const currentPath = useLocation().pathname
+  const currentPath = useLocation().pathname;
 
   const handleSelectPage = (e) => {
     setSelectedPage(e.target.innerHTML);
-    history.push(e.target.innerHTML === "Dashboard" ? "/" : "/"+e.target.innerHTML.toLocaleLowerCase())
+    history.push(
+      e.target.innerHTML === "Dashboard"
+        ? "/"
+        : "/" + e.target.innerHTML.toLocaleLowerCase()
+    );
   };
 
   const handleLogout = () => {
-    localStorage.clear()
-    history.go("/")
-  }
+    localStorage.clear();
+    history.go("/");
+  };
 
   useEffect(() => {
     switch (currentPath) {
       default:
       case "/":
-        setSelectedPage("Dashboard")
+        setSelectedPage("Dashboard");
         break;
       case "/trends":
-        setSelectedPage("Trends")
+        setSelectedPage("Trends");
         break;
       case "/reports":
-        setSelectedPage("Reports")
+        setSelectedPage("Reports");
     }
-    return () => {}
-  }, [selectedPage])
+    return () => {};
+  }, [selectedPage, currentPath]);
 
   return (
     <StyledHeader>
@@ -76,9 +80,7 @@ const Header = ({ userName }) => {
           <p>{userName}</p>
           <img src="/images/icon_person.png" alt="avatar" />
         </StyledUserSettings>
-        <StyledLogoutButton onClick={handleLogout}>
-          Sign Out
-        </StyledLogoutButton>
+        <StyledLogoutButton onClick={handleLogout}>Sign Out</StyledLogoutButton>
       </StyledHeaderContainer>
     </StyledHeader>
   );
@@ -98,7 +100,7 @@ const StyledHeaderContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  @media (max-width:1440px) {
+  @media (max-width: 1440px) {
     padding: 0 20px;
   }
 `;
@@ -116,7 +118,7 @@ const StyledLogo = styled.div`
 `;
 
 const StyledNav = styled.div`
-    width: 100%;
+  width: 100%;
 
   ul {
     padding: 0 50px;
@@ -148,16 +150,9 @@ const StyledPageLink = styled.a`
   }
 `;
 
-const StyledSearchBox = styled.div`
-margin-right: 100px;
-  @media (max-width:1250px) {
-    display: none;
-  }
-`;
-
 const StyledUserSettings = styled.div`
   display: flex;
-  
+
   img {
     height: 24px;
     width: 24px;
@@ -185,10 +180,9 @@ const StyledLogoutButton = styled.button`
   border-radius: 5px;
   background-color: #535abe;
   color: #dddddd;
-  
 
   :hover {
     background-color: #a53501;
     color: #dddddd;
   }
-`
+`;

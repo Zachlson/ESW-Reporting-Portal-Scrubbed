@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import SearchBar from "../../common/SearchBar";
-import MemberStore from "../../stores/memberStore.js";
 
 const CategoryFilters = ({
   setManagerFilters,
@@ -13,7 +12,7 @@ const CategoryFilters = ({
   // states
   const [selectedTab, setSelectedTab] = useState("tech");
   const [displayData, setDisplayData] = useState([]);
-  const [searchString, setSearchString] = useState("")
+  const [searchString, setSearchString] = useState("");
 
   const handleSelectTab = (e) => {
     switch (e.target.getAttribute("name")) {
@@ -70,15 +69,17 @@ const CategoryFilters = ({
   useEffect(() => {
     setDisplayData(categoryFilters);
     if (searchString.length > 0) {
-      let newArray = []
-      categoryFilters.forEach(member => {
-        if (member.memberName.toLowerCase().includes(searchString.toLowerCase())) {
+      let newArray = [];
+      categoryFilters.forEach((member) => {
+        if (
+          member.memberName.toLowerCase().includes(searchString.toLowerCase())
+        ) {
           newArray.push(member);
         }
-      })
-      setDisplayData(newArray)
+      });
+      setDisplayData(newArray);
     } else {
-      setDisplayData(categoryFilters)
+      setDisplayData(categoryFilters);
     }
     return () => {};
   }, [selectedTab, categoryFilters, searchString]);
@@ -94,8 +95,7 @@ const CategoryFilters = ({
           Primary Tech
         </FilterTabButton>
       </TabsContainer>
-      <SearchBar 
-      setSearchString={setSearchString} />
+      <SearchBar setSearchString={setSearchString} />
       {displayData.map((category) => (
         <div key={category.memberIdentifier}>
           <FilterCheckBox
