@@ -28,7 +28,7 @@ function App() {
   const agreementStore = new AgreementStore();
   const memberStore = new MemberStore();
 
-  useEffect(async () => {
+  useEffect(() => {
     setIsLoggedIn(
       localStorage.getItem("esw_logged_in_status") === "logged_in"
         ? true
