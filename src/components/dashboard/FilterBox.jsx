@@ -42,11 +42,11 @@ const StyledContainer = styled.div`
   flex-direction: column;
   margin-right: 20px;
 `;
-const StyledCheckbox = styled.input.attrs({ type: "checkbox" })`
-  height: 25px;
-  width: 25px;
-  margin-right: 10px;
-`;
+// const StyledCheckbox = styled.input.attrs({ type: "checkbox" })`
+//   height: 25px;
+//   width: 25px;
+//   margin-right: 10px;
+// `;
 const StyledCheckContainer = styled.div`
   display: flex;
   margin-top: 17px;
@@ -62,9 +62,9 @@ const StyledNumber = styled.p`
       ? "#6BBB7C"
       : "#FFFFFF"};
 `;
-const StyledSubText = styled.p`
-  font-size: 18px;
-`;
+// const StyledSubText = styled.p`
+//   font-size: 18px;
+// `;
 const StyledButton = styled.button`
   width: 100%;
   height: 25px;

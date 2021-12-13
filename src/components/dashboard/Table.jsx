@@ -146,27 +146,27 @@ const StyledContainer = styled.div`
   padding: 40px;
 `;
 
-const PlaceholderContainer = styled.div`
-  display: flex;
-  justify-content: flex-start;
-`;
+// const PlaceholderContainer = styled.div`
+//   display: flex;
+//   justify-content: flex-start;
+// `;
 
 const LeftSideContainer = styled.div`
   display: inline-block;
 `;
 
-const ClearFilterButton = styled.button`
-  border-radius: 15px;
-  background-color: #fff;
-  color: #f96157;
-  width: 120px;
-  height: 30px;
-  font-size: 18px;
-  line-height: 22px;
-  &:hover {
-    cursor: pointer;
-  }
-`;
+// const ClearFilterButton = styled.button`
+//   border-radius: 15px;
+//   background-color: #fff;
+//   color: #f96157;
+//   width: 120px;
+//   height: 30px;
+//   font-size: 18px;
+//   line-height: 22px;
+//   &:hover {
+//     cursor: pointer;
+//   }
+// `;
 
 const StyledTable = styled.table`
   border-right: 1px solid #fff;

@@ -15,7 +15,7 @@ import MemberStore from "./stores/memberStore";
 import Login from "./pages/login";
 
 function App() {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [categoryFilters, setCategoryFilters] = useState([]);
   const [generalTicketData, setGeneralTicketData] = useState([]);
   const [generalConfigData, setGeneralConfigData] = useState([]);

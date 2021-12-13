@@ -1,12 +1,9 @@
-import styled from 'styled-components'
-import { ResponsiveBar } from '@nivo/bar';
+import styled from "styled-components";
+import { ResponsiveBar } from "@nivo/bar";
 
-
-const BarGraph = ({barData, barKeys, barLegend}) => {
-
-  
+const BarGraph = ({ barData, barKeys, barLegend }) => {
   return (
-      <BarGraphContainer>
+    <BarGraphContainer>
       <ResponsiveBar
         data={barData}
         keys={barKeys}
@@ -19,7 +16,7 @@ const BarGraph = ({barData, barKeys, barLegend}) => {
         isInteractive={true}
         enableLabel={false}
         theme={theme}
-        colors={{scheme: 'category10'}} //This argument handles the graph's colors. Check nivo documentation for available palettes
+        colors={{ scheme: "category10" }} //This argument handles the graph's colors. Check nivo documentation for available palettes
         borderColor={{ from: "color", modifiers: [["darker", 1.6]] }}
         axisTop={null}
         axisRight={null}
@@ -35,7 +32,7 @@ const BarGraph = ({barData, barKeys, barLegend}) => {
           tickSize: 5,
           tickPadding: 5,
           tickRotation: 0,
-          legend: barLegend, 
+          legend: barLegend,
           legendPosition: "middle",
           legendOffset: -42,
         }}
@@ -67,36 +64,36 @@ const BarGraph = ({barData, barKeys, barLegend}) => {
           },
         ]}
         role="application"
-        barAriaLabel={function(e){return e.id+": "+e.formattedValue+" in country: "+e.indexValue}} 
-       //tooltip={function(e){return e.id+": "+e.formattedValue+" in "+e.indexValue}}
-     
+        barAriaLabel={function (e) {
+          return (
+            e.id + ": " + e.formattedValue + " in country: " + e.indexValue
+          );
+        }}
+        //tooltip={function(e){return e.id+": "+e.formattedValue+" in "+e.indexValue}}
       />
-      </BarGraphContainer>
-    );
-    
-    }
+    </BarGraphContainer>
+  );
+};
 
 export default BarGraph;
 
-
 const BarGraphContainer = styled.div`
-    width:700px;
-    height:449px;
-    padding:25px;
-    padding-right: 15px;
-    border-radius:10px;
-    margin: auto;
-    `
-const colorBy = ({id})=>(id=== "openColor"? "#6BBB7C":"#F96157")
+  width: 700px;
+  height: 449px;
+  padding: 25px;
+  padding-right: 15px;
+  border-radius: 10px;
+  margin: auto;
+`;
+// const colorBy = ({id})=>(id=== "openColor"? "#6BBB7C":"#F96157")
 const theme = {
-  textColor:"#FFF",
-  
-  tooltip:{
-    container:{
+  textColor: "#FFF",
+
+  tooltip: {
+    container: {
       background: "#333",
       fontSize: "13px",
-      padding:"5px"
-    }
-  }
-
+      padding: "5px",
+    },
+  },
 };

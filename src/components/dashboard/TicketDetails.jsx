@@ -1,194 +1,215 @@
-import React from 'react'
-import styled from 'styled-components';
-import Tag from './Tag'
+import React from "react";
+import styled from "styled-components";
+import Tag from "./Tag";
 
-const TicketDetails = ({modalItem, menu}) => {
-    //This component expect to recieve a Ticket Object with attributes like title, description, employee name and employee icon
+const TicketDetails = ({ modalItem, menu }) => {
+  //This component expect to recieve a Ticket Object with attributes like title, description, employee name and employee icon
 
-    const isTicket = menu.toLowerCase() === 'ticket' ? true : false;
-    const isConfig = menu.toLowerCase() === 'config' ? true : false;
-    const isAgreement = menu.toLowerCase() === 'agreement' ? true : false;
+  // const isTicket = menu.toLowerCase() === 'ticket' ? true : false;
+  // const isConfig = menu.toLowerCase() === 'config' ? true : false;
+  // const isAgreement = menu.toLowerCase() === 'agreement' ? true : false;
 
-    const ticketAdapter = (rawData) => {
-        return {
-            title: `${rawData.ticketId} - ${rawData.summary}`,
-            subtitle: rawData.companyName,
-            priority: rawData.priorityName,
+  const ticketAdapter = (rawData) => {
+    return {
+      title: `${rawData.ticketId} - ${rawData.summary}`,
+      subtitle: rawData.companyName,
+      priority: rawData.priorityName,
 
-            tags: [
-                rawData.closedFlag ?
-                    {label: 'Closed', isTag: true} :
-                    {label: 'Open', isTag: true},
-                {label: 'Aging'}
-            ],
+      tags: [
+        rawData.closedFlag
+          ? { label: "Closed", isTag: true }
+          : { label: "Open", isTag: true },
+        { label: "Aging" },
+      ],
 
-            description: [
-                {label: 'Type', content: rawData.type, isTag: false},
-                {label: 'Contact', content: rawData.contactName, isTag: false},
-                {label: 'Impact', content: rawData.impact, isTag: true},
-                {label: 'Severity', content: rawData.severity, isTag: true}
-            ],
+      description: [
+        { label: "Type", content: rawData.type, isTag: false },
+        { label: "Contact", content: rawData.contactName, isTag: false },
+        { label: "Impact", content: rawData.impact, isTag: true },
+        { label: "Severity", content: rawData.severity, isTag: true },
+      ],
 
-            employee: {
-                name: rawData.tech,
-                avatarUrl: 'https://comotion.uw.edu/wp-content/uploads/2019/05/generic-profile.png'
-            }
-        }
+      employee: {
+        name: rawData.tech,
+        avatarUrl:
+          "https://comotion.uw.edu/wp-content/uploads/2019/05/generic-profile.png",
+      },
+    };
+  };
+
+  const configAdapter = (rawData) => {
+    const options = {
+      weekday: "long",
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    };
+    const formattedExpiryDate = new Date(
+      rawData.warrantyExpirationDate
+    ).toLocaleString("en-US", options);
+
+    return {
+      title: `${rawData.configId} - ${rawData.configTitle}`,
+      subtitle: rawData.companyName,
+      priority: "",
+
+      tags: [
+        rawData.activeFlag
+          ? { label: "Active", isTag: true }
+          : { label: "InActive", isTag: true },
+        Date.parse(rawData.warrantyExpirationDate) <= Date.parse(new Date())
+          ? { label: "Expired", isTag: true }
+          : { label: "", isTag: false },
+      ],
+
+      description: [
+        { label: "Expire Date", content: formattedExpiryDate, isTag: false },
+        { label: "Type", content: rawData.configType, isTag: false },
+        { label: "Contact", content: rawData.contactName, isTag: false },
+        { label: "Site", content: rawData.siteName, isTag: false },
+      ],
+
+      employee: {
+        name: rawData.tech,
+        avatarUrl:
+          "https://comotion.uw.edu/wp-content/uploads/2019/05/generic-profile.png",
+      },
+    };
+  };
+
+  const agreementAdapter = (rawData) => {
+    const options = {
+      weekday: "long",
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    };
+    const formattedExpiryDate = new Date(rawData.endDate).toLocaleString(
+      "en-US",
+      options
+    );
+    return {
+      title: `${rawData.agreementId} - ${rawData.agreementName}`,
+      subtitle: rawData.companyName,
+      priority: rawData.typeName,
+
+      tags: [{ label: rawData.agreementStatus }],
+
+      description: [
+        { label: "Expire Date", content: formattedExpiryDate, isTag: false },
+        { label: "Contact", content: rawData.contactName, isTag: false },
+        { label: "Bill Amount", content: rawData.billAmount, isTag: false },
+        { label: "Additions", content: rawData.additions.length, isTag: false },
+      ],
+
+      employee: {
+        name: rawData.tech,
+        avatarUrl:
+          "https://comotion.uw.edu/wp-content/uploads/2019/05/generic-profile.png",
+      },
+    };
+  };
+
+  const NormalizeData = (modalItem, menu) => {
+    if (!modalItem || !menu) {
+      return { isEmpty: true };
     }
 
-    const configAdapter = (rawData) => {
-        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-        const formattedExpiryDate = new Date(rawData.warrantyExpirationDate).toLocaleString("en-US", options)
+    let normalizedData = {};
 
-        return {
-            title: `${rawData.configId} - ${rawData.configTitle}`,
-            subtitle: rawData.companyName,
-            priority: '',
-
-            tags: [
-                rawData.activeFlag ?
-                    {label: 'Active', isTag: true} :
-                    {label: 'InActive', isTag: true},
-                (Date.parse(rawData.warrantyExpirationDate)) <= (Date.parse(new Date())) ? {label: 'Expired', isTag: true} : {label: '', isTag: false}
-            ],
-
-            description: [
-                {label: 'Expire Date', content: formattedExpiryDate, isTag: false},
-                {label: 'Type', content: rawData.configType, isTag: false},
-                {label: 'Contact', content: rawData.contactName, isTag: false},
-                {label: 'Site', content: rawData.siteName, isTag: false},
-            ],
-
-            employee: {
-                name: rawData.tech,
-                avatarUrl: 'https://comotion.uw.edu/wp-content/uploads/2019/05/generic-profile.png'
-            }
-        }
+    switch (menu.toLowerCase()) {
+      case "ticket":
+      case "ticket_closed":
+      case "ticket_open":
+      case "ticket_recent":
+      case "ticket_aging":
+        normalizedData = ticketAdapter(modalItem);
+        break;
+      case "config":
+      case "config_active":
+      case "config_quarter_expiring":
+      case "config_yearly_expiring":
+      case "config_expired":
+        normalizedData = configAdapter(modalItem);
+        break;
+      case "agreement":
+      case "agreement_active":
+      case "agreement_expiring_this_year":
+      case "agreement_monthly_revenue":
+      case "agreement_additions":
+        normalizedData = agreementAdapter(modalItem);
+        break;
+      default:
+        normalizedData = { isEmpty: true };
+        break;
     }
 
-    const agreementAdapter = (rawData) => {
-        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-        const formattedExpiryDate = new Date(rawData.endDate).toLocaleString("en-US", options)
-        return {
-            title: `${rawData.agreementId} - ${rawData.agreementName}`,
-            subtitle: rawData.companyName,
-            priority: rawData.typeName,
+    return normalizedData;
+  };
 
-            tags: [
-                {label: rawData.agreementStatus}
-            ],
+  const NormalizedData = NormalizeData(modalItem, menu);
 
-            description: [
-                {label: 'Expire Date', content: formattedExpiryDate, isTag: false},
-                {label: 'Contact', content: rawData.contactName, isTag: false},
-                {label: 'Bill Amount', content: rawData.billAmount, isTag: false},
-                {label: 'Additions', content: rawData.additions.length, isTag: false},
-            ],
+  if (NormalizeData.isEmpty) {
+    return <div></div>;
+  } else {
+    return (
+      <TicketDetailContainer>
+        <div className={"fullWidth"}>
+          <TopSection>
+            <FlexContainer>
+              <ItemTitle>{NormalizedData.title}</ItemTitle>
+              <TagsContainer>
+                {NormalizedData.tags.map((tagInfo, key) => {
+                  return <Tag label={tagInfo.label} key={key}></Tag>;
+                })}
+              </TagsContainer>
+            </FlexContainer>
 
-            employee: {
-                name: rawData.tech,
-                avatarUrl: 'https://comotion.uw.edu/wp-content/uploads/2019/05/generic-profile.png'
-            }
-        }
-    }
+            <FlexContainer>
+              <ItemSubTitle>Client: {NormalizedData.subtitle}</ItemSubTitle>
+              <PriorityContainer>
+                <Tag label={NormalizedData.priority}></Tag>
+              </PriorityContainer>
+            </FlexContainer>
+          </TopSection>
 
-    const NormalizeData = (modalItem, menu) => {
-        if (!modalItem || !menu) {
-            return {isEmpty: true}
-        }
+          <ItemBody>
+            <LeftColumn>
+              {NormalizedData.description.map((attributeLine, key) => {
+                if (attributeLine.isTag) {
+                  return (
+                    <AttributeLine key={key}>
+                      <AttributeName>{attributeLine.label}</AttributeName>
+                      <Tag label={attributeLine.content}></Tag>
+                    </AttributeLine>
+                  );
+                }
+                return (
+                  <AttributeLine key={key}>
+                    <AttributeName>{attributeLine.label}</AttributeName>
+                    <Content>{attributeLine.content}</Content>
+                  </AttributeLine>
+                );
+              })}
+            </LeftColumn>
 
-        let normalizedData = {}
+            <RightColumn>
+              <EmployeeDetails>
+                <ProfileImage
+                  src={NormalizedData.employee.avatarUrl}
+                  alt={"Profile Image"}
+                />
+                <EmployeeName>{NormalizedData.employee.name}</EmployeeName>
+              </EmployeeDetails>
+            </RightColumn>
+          </ItemBody>
+        </div>
+      </TicketDetailContainer>
+    );
+  }
+};
 
-        switch (menu.toLowerCase()) {
-            case 'ticket':
-            case 'ticket_closed':
-            case 'ticket_open':
-            case 'ticket_recent':
-            case 'ticket_aging':
-                normalizedData = ticketAdapter(modalItem)
-                break
-            case 'config':
-            case 'config_active':
-            case 'config_quarter_expiring':
-            case 'config_yearly_expiring':
-            case 'config_expired':
-                normalizedData = configAdapter(modalItem)
-                break
-            case 'agreement':
-            case 'agreement_active':
-            case 'agreement_expiring_this_year':
-            case 'agreement_monthly_revenue':
-            case 'agreement_additions':
-                normalizedData = agreementAdapter(modalItem)
-                break
-            default:
-                normalizedData = {isEmpty: true}
-                break
-        }
-
-        return normalizedData
-    }
-
-    const NormalizedData = NormalizeData(modalItem, menu)
-
-    if (NormalizeData.isEmpty) {
-        return <div></div>
-    } else {
-        return (
-            <TicketDetailContainer>
-                <div className={'fullWidth'}>
-                    <TopSection>
-                        <FlexContainer>
-                            <ItemTitle>{NormalizedData.title}</ItemTitle>
-                            <TagsContainer>
-                                {NormalizedData.tags.map( (tagInfo, key) => {
-                                    return <Tag label={tagInfo.label} key={key}></Tag>
-                                })}
-                            </TagsContainer>
-                        </FlexContainer>
-
-                        <FlexContainer>
-                            <ItemSubTitle>Client: {NormalizedData.subtitle}</ItemSubTitle>
-                                <PriorityContainer>
-                                    <Tag label={NormalizedData.priority}></Tag>
-                                </PriorityContainer>
-                        </FlexContainer>
-                    </TopSection>
-
-
-                    <ItemBody>
-                        <LeftColumn>
-                            {NormalizedData.description.map( (attributeLine, key) => {
-                                if (attributeLine.isTag) {
-                                    return <AttributeLine key={key}>
-                                        <AttributeName>{attributeLine.label}</AttributeName>
-                                        <Tag label={attributeLine.content}></Tag>
-                                    </AttributeLine>
-                                }
-                                return <AttributeLine key={key}>
-                                    <AttributeName>{attributeLine.label}</AttributeName>
-                                    <Content>{attributeLine.content}</Content>
-                                </AttributeLine>
-                        })}
-                        </LeftColumn>
-
-                        <RightColumn>
-                            <EmployeeDetails>
-                                <ProfileImage src={NormalizedData.employee.avatarUrl} alt={"Profile Image"} />
-                                <EmployeeName>{NormalizedData.employee.name}</EmployeeName>
-                            </EmployeeDetails>
-                        </RightColumn>
-                    </ItemBody>
-                </div>
-
-            </TicketDetailContainer>
-        );
-    }
-
-}
-
-export default TicketDetails
-
+export default TicketDetails;
 
 const TicketDetailContainer = styled.div`
   padding: 30px;
@@ -198,8 +219,8 @@ const TicketDetailContainer = styled.div`
   box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5);
   justify-content: space-between;
   align-items: center;
-  color: #05040F;
-  font-family: 'Lato', sans-serif;
+  color: #05040f;
+  font-family: "Lato", sans-serif;
   height: content-box;
   width: 100%;
   .fullWidth {
@@ -258,7 +279,7 @@ const AttributeName = styled.div`
 `;
 
 const LeftColumn = styled.div`
-    width: 70%;
+  width: 70%;
 `;
 
 const RightColumn = styled.div`
@@ -270,7 +291,7 @@ const RightColumn = styled.div`
 
 const EmployeeName = styled.div`
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: bold;
   width: auto;
@@ -292,7 +313,7 @@ const FlexContainer = styled.div`
 `;
 
 const PriorityContainer = styled.div`
-    width: fit-content;
+  width: fit-content;
 `;
 
 const TagsContainer = styled.div`
@@ -302,8 +323,6 @@ const TagsContainer = styled.div`
 `;
 
 const TopSection = styled.div`
-    height: fit-content;
+  height: fit-content;
   margin-bottom: 20px;
 `;
-
-
