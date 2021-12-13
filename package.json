@@ -2,7 +2,6 @@
   "name": "esw-reporting-portal-scrubbed",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3000",
   "dependencies": {
     "@emotion/react": "^11.6.0",
     "@nivo/bar": "^0.74.0",
